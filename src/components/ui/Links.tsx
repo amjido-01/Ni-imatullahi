@@ -2,40 +2,6 @@ import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
 
-// export const AnimatedLink = () => {
-//   return (
-//     <section className="border-2 border-red-500 mt-[10.88rem]">
-//       <div className="max-w-5xl mx-auto">
-//         <Link
-//           heading="Home"
-//           imgSrc="/imgs/random/11.jpg"
-//           href="#"
-//         />
-//         <Link
-//           heading="Works"
-//           imgSrc="/imgs/random/6.jpg"
-//           href="#"
-//         />
-//         <Link
-//           heading="About"
-//           imgSrc="/imgs/random/4.jpg"
-//           href="#"
-//         />
-//         <Link
-//           heading="Graphics"
-//           imgSrc="/imgs/random/5.jpg"
-//           href="#"
-//         />
-//         <Link
-//           heading="CV"
-//           imgSrc="/imgs/random/10.jpg"
-//           href="#"
-//         />
-//       </div>
-//     </section>
-//   );
-// };
-
 interface LinksProps {
    handleRoute: React.MouseEventHandler<HTMLElement>;
   to: string;
@@ -95,7 +61,7 @@ export const Links: React.FunctionComponent<LinksProps> = ({ handleRoute, imgSrc
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block md:text-[4rem] font-black text-[#fff] transition-colors duration-500 border-2 "
+          className="relative z-10 block text-[2.25rem] md:text-[4rem] font-black text-[#fff] transition-colors duration-500"
         >
           {children.split("").map((l, i) => (
             <motion.span
