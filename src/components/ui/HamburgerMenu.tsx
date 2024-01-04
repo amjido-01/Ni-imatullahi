@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Cross as Hamburger } from "hamburger-react";
 import logo from "@/assets/logo.png";
-// import { AnimatedLink } from "./AnimatedLink";
 import { Links } from "./Links";
 import { useNavigate } from "react-router-dom";
 
@@ -53,7 +52,7 @@ export const HamburgerMenu: React.FunctionComponent = () => {
           }`}
         >
           <ul
-          className="flex nav-list border-2 mt-2 absolute bottom-20 md:bottom-10 flex-col justify-end md:p-4 w-[70%] md:w-[60%] ml-[70px] md:ml-[100px] md:mb-[100px"
+          className="flex nav-list border-2 mt-2 absolute bottom-20 md:bottom-10 flex-col justify-end md:p-4 w-[70%] md:w-[82%] ml-[70px] md:ml-[100px] md:mb-[100px"
           >
             <li>
               <Links to='/' imgSrc="/imgs/random/11.jpg" children="Home" handleRoute={(e) => {
@@ -61,10 +60,37 @@ export const HamburgerMenu: React.FunctionComponent = () => {
                 navigate('/')
                 toggleMenu()
               }}/>
-              
             </li>
+            <li>
+              <Links to='/works' imgSrc="/imgs/random/11.jpg" children="Works" handleRoute={(e) => {
+                e.preventDefault();
+                navigate('/works')
+                toggleMenu()
+              }}/>
+            </li>
+            <li>
+              <Links to='/about' imgSrc="/imgs/random/11.jpg" children="About" handleRoute={(e) => {
+                e.preventDefault();
+                navigate('/about')
+                toggleMenu()
+              }}/>
+            </li>
+            <li>
+              <Links to='/graphics' imgSrc="/imgs/random/11.jpg" children="Graphics" handleRoute={(e) => {
+                e.preventDefault();
+                navigate('/graphics')
+                toggleMenu()
+              }}/>
+            </li>
+            <li>
+              <Links to='/cv' imgSrc="/imgs/random/11.jpg" children="Cv" handleRoute={(e) => {
+                e.preventDefault();
+                navigate('/cv')
+                toggleMenu()
+              }}/>
+            </li>
+
           </ul>
-          {/* <AnimatedLink /> */}
         </div>
       {/* </div> */}
     </header>
