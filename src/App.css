@@ -42,7 +42,6 @@ background: rgba(255, 255, 255, 0.10);
   position: fixed;
   background: #010101;
   top: -150%;
-  border: 2px solid red;
   /* border: 2px solid red; */
   flex-direction: column;
   width: 100%;
