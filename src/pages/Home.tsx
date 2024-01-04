@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Hero } from '@/components/ui/Hero';
 
-export const Home = () => {
+export const Home: React.FunctionComponent = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Hero />
+    </div>
   )
 }

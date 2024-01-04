@@ -48,7 +48,6 @@ background: rgba(255, 255, 255, 0.10);
   text-align: center;
   height: 100vh;
   transition: top 0.5s ease-in-out;
-  /* transition: 0.3s; */
   box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 }
 
@@ -82,9 +81,26 @@ background: rgba(255, 255, 255, 0.10);
   transition: ease-in-out 0.5s;
 }
 
+.hero {
+  background: url('./assets/Frame.png'), #010101;
+  object-fit: cover;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 @media screen and (min-width: 780px) {
-    
+  
+  .hero {
+  background: url('./assets/Frame.png'), #010101;
+  object-fit: cover;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, cover;
+}
+
+
     .bar {
     width: 20px;
     border-radius: 50px;

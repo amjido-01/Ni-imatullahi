@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { HamburgerMenu } from './components/ui/HamburgerMenu';
+// import { HamburgerMenu } from './components/ui/HamburgerMenu';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Works } from './pages/Works';
@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <HamburgerMenu />
+        {/* <HamburgerMenu /> */}
 
         <Routes>
           <Route path='/' element={<Home />}/>
