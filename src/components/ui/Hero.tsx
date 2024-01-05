@@ -5,9 +5,7 @@ import { HamburgerMenu } from './HamburgerMenu';
 export const Hero: React.FunctionComponent = () => {
   return (
     <div className='border-red-400 h-[105vh] border2 hero'>
-      
       <HamburgerMenu />
-      
       <div className='flex flex-col justify-center items-centr'>
 
         <div className='w-[86%] md:w-[80%] mx-auto mt-[16.69rem] md:mt-[13rem]'>
@@ -28,8 +26,6 @@ export const Hero: React.FunctionComponent = () => {
             </Button>
           </div>
         </div>
-        
-      
       </div>
     </div>
   )
