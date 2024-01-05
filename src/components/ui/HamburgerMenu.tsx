@@ -45,14 +45,14 @@ export const HamburgerMenu: React.FunctionComponent = () => {
         </nav>
 
         <div
-          className={`nav-menu h-scree left-0 ${
+          className={`nav-menu h-scree left-0 border-2 ${
             isOpen
               ? "active left-0"
               : ""
           }`}
         >
           <ul
-          className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end w-[70%] md:w-[82%] ml-[70px] md:ml-[100px]"
+          className="flex nav-list border-2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%] ml-[40px] md:ml-[100px]"
           >
             <li>
               <Links to='/' imgSrc="/imgs/random/11.jpg" children="Home" handleRoute={(e) => {

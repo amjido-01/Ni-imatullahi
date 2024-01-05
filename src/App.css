@@ -65,6 +65,10 @@ background: rgba(255, 255, 255, 0.10);
   top: 0;
 }
 
+.nav-list {
+  width: 90%;
+}
+
 .hero {
   background: url('./assets/Frame.png'), #010101;
   opacity: 0.8;
@@ -88,6 +92,9 @@ background: rgba(255, 255, 255, 0.10);
   }
   .intro {
     margin-top: 16.69rem;
+  }
+  .nav-list {
+    width: 80%;
   }
 }
 
