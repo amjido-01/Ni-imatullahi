@@ -4,7 +4,7 @@ import {VisitArrow} from './VisitArrow'
 import { HamburgerMenu } from './HamburgerMenu';
 export const Hero: React.FunctionComponent = () => {
   return (
-    <div className='border-red-400 h-[105vh] border2 hero'>
+    <div className='border-red-400 h-[100dvh] border-2 hero'>
       <HamburgerMenu />
       <div className='flex flex-col justify-center items-centr'>
 
