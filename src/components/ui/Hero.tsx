@@ -8,7 +8,7 @@ export const Hero: React.FunctionComponent = () => {
       <HamburgerMenu />
       <div className='flex flex-col justify-center items-centr'>
 
-        <div className='w-[86%] md:w-[80%] mx-auto mt-[16.69rem] md:mt-[13rem]'>
+        <div className='w-[86%] md:w-[80%] mx-auto intro md:mt-[13rem]'>
            <div className="heading">
               <h1 className='text-[#F4F4F4] leading-[120%] tracking[2px] uppercase font-black style w-[18.5625rem] h[12.0625rem] md:w-[100%] md:h[14.625rem] heads md:text-[6rem]'>Crafting Engaging UI/UX Experiences</h1>
            </div>
