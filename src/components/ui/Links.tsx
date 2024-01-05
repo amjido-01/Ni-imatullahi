@@ -1,6 +1,6 @@
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
-import { FiArrowRight } from "react-icons/fi";
+import { Arrow} from './Arrow'
 
 interface LinksProps {
    handleRoute: React.MouseEventHandler<HTMLElement>;
@@ -111,7 +111,7 @@ export const Links: React.FunctionComponent<LinksProps> = ({ handleRoute, imgSrc
         transition={{ type: "spring" }}
         className="relative z-10 p-4"
       >
-        <FiArrowRight className="text-5xl text-neutral-50" />
+        <Arrow className="w-[3.75rem] h-[3rem] text-neutral-50" />
       </motion.div>
     </motion.a>
   );
