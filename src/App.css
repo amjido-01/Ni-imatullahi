@@ -70,8 +70,7 @@ body {
 }
 
 .hero {
-  background: url('./assets/Frame.png'), #010101;
-  opacity: 0.8;
+  background: url('./assets/smbg.png'), #010101;
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
