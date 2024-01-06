@@ -7,7 +7,8 @@ export const Hero: React.FunctionComponent = () => {
   return (
     <div className='border-red-400 hero'>
       <HamburgerMenu />
-      <div className='flex flex-col border-2 justify-center items-centr'>
+
+      <div className='flex h-[90vh] flex-col border-2 justify-center items-centr'>
 
         <div className='w-[86%] border-2 md:w-[84.2%] mx-auto intro md:mt-[13rem]'>
            <div className="heading">
