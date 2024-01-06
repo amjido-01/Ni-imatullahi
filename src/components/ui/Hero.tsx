@@ -8,9 +8,9 @@ export const Hero: React.FunctionComponent = () => {
     <div className='border-red-400 hero'>
       <HamburgerMenu />
 
-      <div className='flex h-[90vh] flex-col border-2 justify-center items-centr'>
+      <div className='flex md:h-[90vh] flex-col border2 justify-center items-centr'>
 
-        <div className='w-[86%] border-2 md:w-[84.2%] mx-auto intro md:mt-[13rem]'>
+        <div className='w-[86%] border2 md:w-[84.2%] mx-auto intro md:mt-[17rem]'>
            <div className="heading">
               <h1 className='text-[#F4F4F4] leading-[120%] tracking[2px] uppercase font-black style w-[18.5625rem] md:w-[100%] heads md:text-[6rem]'>designer with a professional vision</h1>
            </div>
