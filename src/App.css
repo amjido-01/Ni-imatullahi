@@ -71,7 +71,6 @@ body {
 
 .hero {
   background: url('./assets/smbg.png'), #010101;
-  object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
