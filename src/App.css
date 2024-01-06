@@ -101,14 +101,9 @@ body {
 @media screen and (min-width: 780px) {
   
   .hero {
-  background: url('./assets/Frame.png'), #010101;
-  /* object-fit: cover; */
-  background-repeat: no-repeat;
-  /* border: 2px silid red; */
-  opacity: 0.8;
-    /* background-position: center; */
-    background-position-y: center;
-    background-position-x: center;
+    background: url('./assets/Lgbg.png'), #010101;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size:  cover;
 }
 

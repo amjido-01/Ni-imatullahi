@@ -14,7 +14,7 @@ export const HamburgerMenu: React.FunctionComponent = () => {
   }
 
   return (
-    <header className={`w-full fixed h-[3rem] md:h-[4.375rem] top-[4rem] left-0 z-20`}>
+    <header className={`w-full fixed h-[3rem] md:h-[4.375rem] top-[2.4rem] left-0 z-20`}>
       {/* <div className=" w-[95%] md:w-[87%] mx-auto bgg"> */}
         <nav className="w-[90%] px-[1rem] md:px-[2.75rem] h-full md:w-[85%] bgg flex justify-between items-center mx-auto">
           <div>
@@ -54,6 +54,7 @@ export const HamburgerMenu: React.FunctionComponent = () => {
           <ul
           className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]"
           >
+            {/* will just map all the links and make it simplified */}
             <li>
               <Links to='/' imgSrc="/imgs/random/11.jpg" children="Home" handleRoute={(e) => {
                 e.preventDefault();
