@@ -53,7 +53,7 @@ export const HamburgerMenu: React.FunctionComponent = () => {
   //   setOpen(!isOpen)
   // }
   console.log(linksData);
-  
+  isOpen ? document.body.style.overflowY = 'hidden' : document.body.style.overflowY = 'visible';
 
   return (
     <header className={`w-full fixed h-[3rem] md:h-[4.375rem] top-[2rem] md:top-[2.4rem] left-0 z-20`}>
@@ -86,7 +86,7 @@ export const HamburgerMenu: React.FunctionComponent = () => {
         </nav>
 
         <div
-          className={`nav-menu h-scree ove border-2 border-red-500 left-0 px-4 sm:px-8 md:px-0 ${
+          className={`nav-menu h-screen border-2 border-red-500 left-0 px-4 sm:px-8 md:px-0 ${
             isOpen
               ? "active left-0"
               : ""
@@ -96,10 +96,9 @@ export const HamburgerMenu: React.FunctionComponent = () => {
              {
               linksData.map((item) => <ul 
               className="border-2"
-              // className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]"
               >
                 <li>
-                  <Links key={item.id} to={item.url} imgSrc={item.imgSrc} children={item.children}  />
+                  <Links to={item.url} imgSrc={item.imgSrc} children={item.children}  />
                 </li>
               </ul>)
             }
