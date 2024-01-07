@@ -3,47 +3,7 @@ import { Cross as Hamburger } from "hamburger-react";
 import logo from "@/assets/logo.png";
 import { Links } from "./Links";
 import { useNavigate } from "react-router-dom";
-import myimg from '@/assets/myimg.png';
-import mycv from '@/assets/mycv.png'
-
-
-const linksData = [
-  {
-    id: 0,
-    pageUrl: '/',
-    imgSrc: '/imgs/random/11.jpg',
-    children: 'Home',
-    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
-  },
-  {
-    id: 1,
-    pageUrl: '/works',
-    imgSrc: '/imgs/random/11.jpg',
-    children: 'Works',
-    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
-  },
-  {
-    id: 2,
-    pageUrl: '/about',
-    imgSrc: myimg,
-    children: 'About',
-    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
-  },
-  {
-    id: 3,
-    pageUrl: '/graphics',
-    imgSrc: '/imgs/random/11.jpg',
-    children: 'Graphics',
-    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
-  },
-  {
-    id: 4,
-    pageUrl: '/cv',
-    imgSrc: mycv,
-    children: 'Cv',
-    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
-  },
-]
+import { linksData } from "@/linksData";
 
 export const HamburgerMenu: React.FunctionComponent = () => {
   const navigate = useNavigate()
@@ -52,7 +12,6 @@ export const HamburgerMenu: React.FunctionComponent = () => {
   const toggleMenu = () => {
     setOpen(!isOpen)
   }
-  console.log(linksData);
   isOpen ? document.body.style.overflowY = 'hidden' : document.body.style.overflowY = 'visible';
 
   return (
@@ -101,8 +60,6 @@ export const HamburgerMenu: React.FunctionComponent = () => {
               ))}
             </ul>
           </div>
-           
-         
         </div>
     </header>
   );
