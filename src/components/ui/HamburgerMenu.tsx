@@ -2,16 +2,56 @@ import React, { useState } from "react";
 import { Cross as Hamburger } from "hamburger-react";
 import logo from "@/assets/logo.png";
 import { Links } from "./Links";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
+import myimg from '@/assets/myimg.png';
+import mycv from '@/assets/mycv.png'
 
+
+const linksData = [
+  {
+    id: 0,
+    url: '/',
+    imgSrc: '/imgs/random/11.jpg',
+    children: 'Home',
+    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
+  },
+  {
+    id: 1,
+    url: '/',
+    imgSrc: '/imgs/random/11.jpg',
+    children: 'Home',
+    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
+  },
+  {
+    id: 2,
+    url: '/',
+    imgSrc: '/imgs/random/11.jpg',
+    children: 'Home',
+    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
+  },
+  {
+    id: 3,
+    url: '/',
+    imgSrc: '/imgs/random/11.jpg',
+    children: 'Home',
+    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
+  },
+  {
+    id: 4,
+    url: '/',
+    imgSrc: '/imgs/random/11.jpg',
+    children: 'Home',
+    // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
+  },
+]
 
 export const HamburgerMenu: React.FunctionComponent = () => {
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
   const [isOpen, setOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setOpen(!isOpen)
-  }
+  // const toggleMenu = () => {
+  //   setOpen(!isOpen)
+  // }
 
   return (
     <header className={`w-full fixed h-[3rem] md:h-[4.375rem] top-[2rem] md:top-[2.4rem] left-0 z-20`}>
@@ -51,47 +91,15 @@ export const HamburgerMenu: React.FunctionComponent = () => {
               : ""
           }`}
         >
-          <ul
-          className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]"
-          >
-            {/* will just map all the links and make it simplified */}
-            <li>
-              <Links to='/' imgSrc="/imgs/random/11.jpg" children="Home" handleRoute={(e) => {
-                e.preventDefault();
-                navigate('/')
-                toggleMenu()
-              }}/>
-            </li>
-            <li>
-              <Links to='/works' imgSrc="/imgs/random/11.jpg" children="Works" handleRoute={(e) => {
-                e.preventDefault();
-                navigate('/works')
-                toggleMenu()
-              }}/>
-            </li>
-            <li>
-              <Links to='/about' imgSrc="/imgs/random/11.jpg" children="About" handleRoute={(e) => {
-                e.preventDefault();
-                navigate('/about')
-                toggleMenu()
-              }}/>
-            </li>
-            <li>
-              <Links to='/graphics' imgSrc="/imgs/random/11.jpg" children="Graphics" handleRoute={(e) => {
-                e.preventDefault();
-                navigate('/graphics')
-                toggleMenu()
-              }}/>
-            </li>
-            <li>
-              <Links to='/cv' imgSrc="/imgs/random/11.jpg" children="Cv" handleRoute={(e) => {
-                e.preventDefault();
-                navigate('/cv')
-                toggleMenu()
-              }}/>
-            </li>
-
-          </ul>
+     
+            {
+              linksData.map((item) => <ul className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]">
+                <li>
+                  <Links key={item.id} to={item.url} imgSrc={item.imgSrc} children={item.children}  />
+                </li>
+              </ul>)
+            }
+         
         </div>
       {/* </div> */}
     </header>

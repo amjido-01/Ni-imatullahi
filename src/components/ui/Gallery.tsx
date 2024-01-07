@@ -19,8 +19,6 @@ export const Gallery: React.FunctionComponent = () => {
                 <img src={work} alt="work" />
             </div>
            </div>
-
-          
         </div>
     )
 }
