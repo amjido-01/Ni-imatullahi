@@ -19,28 +19,28 @@ const linksData = [
     id: 1,
     url: '/',
     imgSrc: '/imgs/random/11.jpg',
-    children: 'Home',
+    children: 'Works',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
   {
     id: 2,
     url: '/',
     imgSrc: '/imgs/random/11.jpg',
-    children: 'Home',
+    children: 'About',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
   {
     id: 3,
     url: '/',
     imgSrc: '/imgs/random/11.jpg',
-    children: 'Home',
+    children: 'Graphics',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
   {
     id: 4,
     url: '/',
     imgSrc: '/imgs/random/11.jpg',
-    children: 'Home',
+    children: 'Cv',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
 ]
@@ -52,10 +52,11 @@ export const HamburgerMenu: React.FunctionComponent = () => {
   // const toggleMenu = () => {
   //   setOpen(!isOpen)
   // }
+  console.log(linksData);
+  
 
   return (
     <header className={`w-full fixed h-[3rem] md:h-[4.375rem] top-[2rem] md:top-[2.4rem] left-0 z-20`}>
-      {/* <div className=" w-[95%] md:w-[87%] mx-auto bgg"> */}
         <nav className="w-[90%] px-[1rem] md:px-[2.75rem] h-full md:w-[85%] bgg flex justify-between items-center mx-auto">
           <div>
             <img
@@ -85,23 +86,27 @@ export const HamburgerMenu: React.FunctionComponent = () => {
         </nav>
 
         <div
-          className={`nav-menu h-scree left-0 px-4 sm:px-8 md:px-0 ${
+          className={`nav-menu h-scree ove border-2 border-red-500 left-0 px-4 sm:px-8 md:px-0 ${
             isOpen
               ? "active left-0"
               : ""
           }`}
         >
-     
-            {
-              linksData.map((item) => <ul className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]">
+          <div className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]">
+             {
+              linksData.map((item) => <ul 
+              className="border-2"
+              // className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]"
+              >
                 <li>
                   <Links key={item.id} to={item.url} imgSrc={item.imgSrc} children={item.children}  />
                 </li>
               </ul>)
             }
+          </div>
+           
          
         </div>
-      {/* </div> */}
     </header>
   );
 };
