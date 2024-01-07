@@ -3,13 +3,13 @@ import React, { useRef } from "react";
 import { Arrow} from './Arrow'
 
 interface LinksProps {
-  //  handleRoute: React.MouseEventHandler<HTMLElement>;
+   handleRoute: React.MouseEventHandler<HTMLElement>;
   to: string;
   children: string;
   imgSrc: string
 }
 // handleRoute
-export const Links: React.FunctionComponent<LinksProps> = ({ imgSrc, to, children }) => {
+export const Links: React.FunctionComponent<LinksProps> = ({ imgSrc, to, children, handleRoute }) => {
   const ref = useRef<HTMLAnchorElement | null>(null);
 
   const x = useMotionValue(0);
@@ -42,7 +42,7 @@ export const Links: React.FunctionComponent<LinksProps> = ({ imgSrc, to, childre
   return (
     <motion.a
       href={to}
-      // onClick={handleRoute}
+      onClick={handleRoute}
       ref={ref}
       onMouseMove={handleMouseMove}
       initial="initial"

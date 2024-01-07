@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Cross as Hamburger } from "hamburger-react";
 import logo from "@/assets/logo.png";
 import { Links } from "./Links";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import myimg from '@/assets/myimg.png';
 import mycv from '@/assets/mycv.png'
 
@@ -10,48 +10,48 @@ import mycv from '@/assets/mycv.png'
 const linksData = [
   {
     id: 0,
-    url: '/',
+    pageUrl: '/',
     imgSrc: '/imgs/random/11.jpg',
     children: 'Home',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
   {
     id: 1,
-    url: '/',
+    pageUrl: '/works',
     imgSrc: '/imgs/random/11.jpg',
     children: 'Works',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
   {
     id: 2,
-    url: '/',
+    pageUrl: '/about',
     imgSrc: myimg,
     children: 'About',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
   {
     id: 3,
-    url: '/',
-    imgSrc: mycv,
+    pageUrl: '/graphics',
+    imgSrc: '/imgs/random/11.jpg',
     children: 'Graphics',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
   {
     id: 4,
-    url: '/',
-    imgSrc: '/imgs/random/11.jpg',
+    pageUrl: '/cv',
+    imgSrc: mycv,
     children: 'Cv',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
 ]
 
 export const HamburgerMenu: React.FunctionComponent = () => {
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
   const [isOpen, setOpen] = useState(false);
 
-  // const toggleMenu = () => {
-  //   setOpen(!isOpen)
-  // }
+  const toggleMenu = () => {
+    setOpen(!isOpen)
+  }
   console.log(linksData);
   isOpen ? document.body.style.overflowY = 'hidden' : document.body.style.overflowY = 'visible';
 
@@ -93,16 +93,13 @@ export const HamburgerMenu: React.FunctionComponent = () => {
           }`}
         >
           <div className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]">
-             {
-              linksData.map((item) => <ul
-              key={item.id} 
-              className="border-2"
-              >
-                <li>
-                  <Links to={item.url} imgSrc={item.imgSrc} children={item.children}  />
+            <ul className="border-2">
+                {linksData.map((item) => (
+                <li key={item.id}>
+                  <Links handleRoute={(e) => {e.preventDefault(), navigate(item.pageUrl), toggleMenu()}} to={item.pageUrl} imgSrc={item.imgSrc} children={item.children} />
                 </li>
-              </ul>)
-            }
+              ))}
+            </ul>
           </div>
            
          
