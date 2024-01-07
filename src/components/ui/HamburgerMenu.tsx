@@ -25,14 +25,14 @@ const linksData = [
   {
     id: 2,
     url: '/',
-    imgSrc: '/imgs/random/11.jpg',
+    imgSrc: myimg,
     children: 'About',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
   {
     id: 3,
     url: '/',
-    imgSrc: '/imgs/random/11.jpg',
+    imgSrc: mycv,
     children: 'Graphics',
     // handleRoute: (e) => {e.preventDefault(), navigate(`${url}`), toggleMenu()}
   },
@@ -94,7 +94,8 @@ export const HamburgerMenu: React.FunctionComponent = () => {
         >
           <div className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]">
              {
-              linksData.map((item) => <ul 
+              linksData.map((item) => <ul
+              key={item.id} 
               className="border-2"
               >
                 <li>
