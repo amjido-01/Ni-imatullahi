@@ -31,7 +31,6 @@ export const HamburgerMenu: React.FunctionComponent = () => {
                 {isOpen ? "close" : "Menu"}
               </span>
             </div>
-
             <Hamburger
               toggled={isOpen}
               toggle={setOpen}
@@ -43,16 +42,15 @@ export const HamburgerMenu: React.FunctionComponent = () => {
             />
           </div>
         </nav>
-
         <div
-          className={`nav-menu h-screen border-2 border-red-500 left-0 px-4 sm:px-8 md:px-0 ${
+          className={`nav-menu h-screen left-0 px-4 sm:px-8 md:px-0 ${
             isOpen
               ? "active left-0"
               : ""
           }`}
         >
           <div className="flex nav-list border2 mt-2 absolute bottom-20 md:bottom-0 flex-col justify-end md:w-[82%]  md:ml-[100px]">
-            <ul className="border-2">
+            <ul className="">
                 {linksData.map((item) => (
                 <li key={item.id}>
                   <Links handleRoute={(e) => {e.preventDefault(), navigate(item.pageUrl), toggleMenu()}} to={item.pageUrl} imgSrc={item.imgSrc} children={item.children} />
