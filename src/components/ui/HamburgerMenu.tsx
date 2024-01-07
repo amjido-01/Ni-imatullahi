@@ -16,7 +16,7 @@ export const HamburgerMenu: React.FunctionComponent = () => {
 
   return (
     <header className={`w-full fixed h-[3rem] md:h-[4.375rem] top-[2rem] md:top-[2.4rem] left-0 z-20`}>
-        <nav className="w-[90%] px-[1rem] md:px-[2.75rem] h-full md:w-[85%] bgg flex justify-between items-center mx-auto">
+        <nav className="w-[90%] px-[1rem] md:px-[2.75rem] h-full md:w-[85%] lg:w-[90%] bgg flex justify-between items-center mx-auto">
           <div>
             <img
               src={logo}

@@ -5,14 +5,14 @@ import { HamburgerMenu } from './HamburgerMenu';
 import { Gallery } from './Gallery'
 export const Hero: React.FunctionComponent = () => {
   return (
-    <div className='hero h-[120vh]'>
+    <div className='hero h-[105vh] md:h-[120vh]'>
       <HamburgerMenu />
 
-      <div className='flex md:h-[90vh] flex-col border2 justify-center items-centr'>
+      <div className='flex md:h-[90vh] flex-col justify-center items-centr'>
 
-        <div className='w-[84%] md:w-[84.2%] mx-auto border2 mt-[12.12rem] intro md:mt-[17rem]'>
+        <div className='w-[85%] md:w-[84.2%] mx-auto mt-[12.12rem] intro md:mt-[17rem]'>
            <div className="heading">
-              <h1 className='text-[#F4F4F4] leading-[120%] tracking[2px] uppercase font-black style w-[18.5625rem] md:w-[100%] heads md:text-[6rem]'>designer with a professional vision</h1>
+              <h1 className='text-[#F4F4F4] leading-[120%] tracking[2px] uppercase font-black style w-full sm:w-[80%] md:w-[100%] heads md:text-[5.6rem] lg:text-[6rem]'>designer with a professional vision</h1>
            </div>
            
            <div className="flex items-center justify-start mt-[1.5rem] md:mt-[1rem] md:justify-end sub-heading">
