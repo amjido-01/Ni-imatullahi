@@ -22,7 +22,7 @@ export const Project:React.FunctionComponent<projectprops> = ({deskstopImg, mobi
                         <h3 className='text-[1.06644rem] md:text-[1.76rem] style font-extrabold leading-[120%] capitalize'>{projectName}</h3>
                         <p className='text-[0.60938rem] md:text-[1.02669rem] style font-normal mt-[0.04rem] md:mt-[0.29rem] leading-[120%] capitalize'>{role}</p>
                     </div>
-                    <div>
+                    <div className=''>
                         <img src={liveIcon} className='w-[1.75rem] h-[1.75rem] md:w-[3.78594rem] md:h-[3.78594rem] exclude object-scale-down' alt="live" />
                     </div>
                    </div>

@@ -5,7 +5,7 @@ import { HamburgerMenu } from './HamburgerMenu';
 import { Gallery } from './Gallery'
 export const Hero: React.FunctionComponent = () => {
   return (
-    <div className='hero h-[105vh] md:h-[120vh]'>
+    <div className='hero'>
       <HamburgerMenu />
 
       <div className='flex md:h-[90vh] flex-col justify-center items-centr'>
