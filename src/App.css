@@ -90,7 +90,7 @@ body {
   transition: 0.5s all ease-in-out;
 }
 
-.gala:hover img {
+.gala:hover img:not(.exclude) {
   transform: scale(1.2);
 }
 
