@@ -10,25 +10,25 @@ import pixelsm from '@/assets/pixelsm.png';
 import { Project } from './Project';
 export const Gallery: React.FunctionComponent = () => {
     return (
-        <div className="border-2 mt-[7.12rem] flex flex-col gap-[2.54rem] md:gap-[1.5rem]">
+        <div className="mt-[7.44rem] md:mt-[7.13rem] flex flex-col gap-[2.54rem] md:gap-[1.5rem]">
 
-           <div className="flex flex-col md:flex-row justify-center items-center border-2 gap-[2.54rem] md:gap-[1.5rem]">
+           <div className="flex flex-col lg:flex-row justify-center items-center gap-[2.54rem] md:gap-[1.5rem]">
             
-            <div className='w-[94%] gala md:w-[47.5%] rounded-[1.21875rem] md:rounded-[2.34669rem] overflow-hidden border2'>
-                <Project deskstopImg={kustbookletlg} mobileImage={kustbookletsm} liveIcon={live} />
+            <div className='w-[94%] gala lg:w-[47.5%] rounded-[1.21875rem] md:rounded-[2.34669rem] overflow-hidden'>
+                <Project deskstopImg={kustbookletlg} mobileImage={kustbookletsm} liveIcon={live} projectName='KUSTBooklets' role='Frontend Developer, UI/UX designer' />
             </div>
             
-             <div className='w-[94%] gala md:w-[47.5%] rounded-[1.21875rem] md:rounded-[2.34669rem] overflow-hidden border2'>
-                <Project deskstopImg={alaportfoliolg} mobileImage={alaportfoliosm} liveIcon={live} />
+             <div className='w-[94%] gala lg:w-[47.5%] rounded-[1.21875rem] md:rounded-[2.34669rem] overflow-hidden'>
+                <Project deskstopImg={alaportfoliolg} mobileImage={alaportfoliosm} liveIcon={live} projectName='ala’s Portfolio' role='Product Designer' />
             </div>
            </div>
 
-           <div className="flex flex-col md:flex-row justify-center items-center border-2 gap-[2.54rem] md:gap-[1.5rem]">
-            <div className='w-[94%] gala md:w-[47.5%] rounded-[1.21875rem] md:rounded-[2.34669rem] overflow-hidden border2'>
-               <Project deskstopImg={bookbaylg} mobileImage={bookbaysm} liveIcon={live} />
+           <div className="flex flex-col lg:flex-row justify-center items-center gap-[2.54rem] md:gap-[1.5rem]">
+            <div className='w-[94%] gala lg:w-[47.5%] rounded-[1.21875rem] md:rounded-[2.34669rem] overflow-hidden'>
+               <Project deskstopImg={bookbaylg} mobileImage={bookbaysm} liveIcon={live} projectName='Bookbay' role='UI/UX designer' />
             </div>
-             <div className='w-[94%] gala md:w-[47.5%] rounded-[1.21875rem] md:rounded-[2.34669rem] overflow-hidden border2'>
-               <Project deskstopImg={pixellg} mobileImage={pixelsm} liveIcon={live} />
+             <div className='w-[94%] gala lg:w-[47.5%] rounded-[1.21875rem] md:rounded-[2.34669rem] overflow-hidden'>
+               <Project deskstopImg={pixellg} mobileImage={pixelsm} liveIcon={live} projectName='Sarco pixel' role='Product Designer'/>
             </div>
            </div>
         </div>
