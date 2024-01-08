@@ -10,6 +10,12 @@ body {
   font-family: 'Geist Variable';
 }
 
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .l {
   font-family: 'GeistMono-UltraBlack';
 }
@@ -74,7 +80,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 110vh;
+  /* height: 110vh; */
 }
 
 .intro {
@@ -97,7 +103,7 @@ body {
 
 @media screen and (min-width: 400px) {
   .hero {
-    height: 110vh;
+    /* height: 110vh; */
   }
   .heads {
     font-size: 3rem;
@@ -118,7 +124,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size:  cover;
-    height: 125vh;
+    /* height: 125vh; */
 }
 
 }

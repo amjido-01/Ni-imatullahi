@@ -1,12 +1,13 @@
 import React from 'react';
 import { Hero } from '@/components/ui/Hero';
-// import { Gallery } from '@/components/ui/Gallery'
-
+import { Footer } from '@/components/ui/Footer';
+import { Test } from '@/components/ui/Test';
 export const Home: React.FunctionComponent = () => {
   return (
-    <div>
+    <div className='home'>
       <Hero />
-      {/* <Gallery /> */}
+      <Test />
+      <Footer />
     </div>
   )
 }
