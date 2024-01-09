@@ -78,7 +78,7 @@ body {
 }
 
 .hero {
-  background: url("./assets/smbg.png"), #010101;
+  background: url("./assets/mobilebg.png"), #010101;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -137,7 +137,7 @@ footer {
 
 @media screen and (min-width: 780px) {
   .hero {
-    background: url("./assets/Lgbg.png"), #010101;
+    background: url("./assets/BG.png"), #010101;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
