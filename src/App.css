@@ -102,6 +102,16 @@ body {
 .gala:hover img:not(.exclude) {
   transform: scale(1.2);
 }
+.bar {
+  display: block;
+  width: 3rem;
+  height: 2.75px;
+}
+.about {
+  -webkit-text-stroke: 2px white;
+  font-family: sans-serif;
+  color: #010101;
+}
 
 footer {
     border-top-left-radius: 42.5rem;
