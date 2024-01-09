@@ -1,35 +1,37 @@
-import myimg from '@/assets/myimg.png';
-import mycv from '@/assets/mycv.png'
-
+import profile from '@/assets/profile.png';
+import resume from '@/assets/resume.png';
+import graphics from '@/assets/graphics.png';
+import works from '@/assets/Works.png' ;
+import home from '@/assets/home.png';
 export const linksData = [
   {
     id: 0,
     pageUrl: '/',
-    imgSrc: '/imgs/random/11.jpg',
+    imgSrc: home,
     children: 'Home',
   },
   {
     id: 1,
     pageUrl: '/works',
-    imgSrc: '/imgs/random/11.jpg',
+    imgSrc: works,
     children: 'Works',
   },
   {
     id: 2,
     pageUrl: '/about',
-    imgSrc: myimg,
+    imgSrc: profile,
     children: 'About',
   },
   {
     id: 3,
     pageUrl: '/graphics',
-    imgSrc: '/imgs/random/11.jpg',
+    imgSrc: graphics,
     children: 'Graphics',
   },
   {
     id: 4,
     pageUrl: '/cv',
-    imgSrc: mycv,
+    imgSrc: resume,
     children: 'Cv',
   },
 ]
