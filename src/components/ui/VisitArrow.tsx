@@ -9,7 +9,7 @@ export const VisitArrow = (props: SVGProps<SVGSVGElement>) => (
   >
     {/* common */}
     <path
-      stroke="#F4F4F4"
+      // stroke="#F4F4F4"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={3}

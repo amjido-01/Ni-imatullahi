@@ -23,7 +23,7 @@ export const Hero: React.FunctionComponent = () => {
             <div className="flex mt-[3rem] mx-auto md:mt-[2.5rem] call">
               <Button variant='link' className='text-[#F4F4F4] text-[1rem] flex gap-[0.75rem] items-center md:text-[1.5rem] style font-bold leading-[120%] px-0'>
                   Visit my works
-              <VisitArrow className='md:mt-1 md:w-[1.375rem] md:h-[1.375rem]'/>
+              <VisitArrow className='md:mt-1 md:w-[1.375rem] md:h-[1.375rem] stroke-[#F4F4F4]'/>
             </Button>
           </div>
         </div>

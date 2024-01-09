@@ -1,13 +1,13 @@
-@import url('non.geist');
-@import url('non.geist/font-faces/GeistMono-UltraBlack.css');
+@import url("non.geist");
+@import url("non.geist/font-faces/GeistMono-UltraBlack.css");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Geist Variable';
+  font-family: "Geist Variable";
 }
 
 .home {
@@ -17,7 +17,7 @@ body {
 }
 
 .l {
-  font-family: 'GeistMono-UltraBlack';
+  font-family: "GeistMono-UltraBlack";
 }
 
 .style {
@@ -42,13 +42,11 @@ body {
   background: #050c1c;
 }
 
-
 .bgg {
   border-radius: 2rem;
-  background: rgba(255, 255, 255, 0.10);
-/* backdrop-filter: blur(50px); */
+  background: rgba(255, 255, 255, 0.1);
+  /* backdrop-filter: blur(50px); */
 }
-
 
 .nav-menu {
   position: fixed;
@@ -76,7 +74,7 @@ body {
 }
 
 .hero {
-  background: url('./assets/smbg.png'), #010101;
+  background: url("./assets/smbg.png"), #010101;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -92,7 +90,7 @@ body {
   text-wrap: balance;
 }
 
-.gala img{
+.gala img {
   width: 100%;
   transition: 0.5s all ease-in-out;
 }
@@ -118,13 +116,11 @@ body {
 }
 
 @media screen and (min-width: 780px) {
-  
   .hero {
-    background: url('./assets/Lgbg.png'), #010101;
+    background: url("./assets/Lgbg.png"), #010101;
     background-repeat: no-repeat;
     background-position: center;
-    background-size:  cover;
+    background-size: cover;
     height: 125vh;
-}
-
+  }
 }
