@@ -19,7 +19,8 @@ return (
             <h1 className='leading-[120%] tracking[2px] uppercase font-black style w-full sm:w-[80%] md:w-[100%] heads md:text-[5.6rem] lg:text-[6rem]'>let’s build it together</h1>
 
             <div className='border-2 mt-[1.75rem] md:mt-[6.125rem] border-black flex items-center'>
-            <div className='flex items-center border-2 border-red-500 w-full gap-[1.44rem] md:gap-[7.38rem]'>
+
+            <div className='flex flex-col sm:flex-row sm:items-center border-2 border-red-500 w-full gap-[1.44rem] md:gap-[7.38rem]'>
                 <div>
                 <Button variant="outline"className='text-[#010101] text-[0.75rem] flex gap-[0.75rem] 
                 bg-[#F4F4F4] items-center md:text-[1.5rem] style font-bold leading-[120%] px-[1rem] py-[o.75rem] rounded-[3.125rem] border-[4px] border-[#000] border-solid leading-[120%]'>
