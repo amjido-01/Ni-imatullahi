@@ -78,7 +78,8 @@ body {
 }
 
 .hero {
-  background: url("./assets/mobilebg.png"), #010101;
+  /* background: url("./assets/mobilebg.png"), #010101; */
+  background-image: url('./assets/iphone.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
