@@ -115,6 +115,10 @@ body {
   }
 }
 
+footer {
+  border-radius: 250px 250px 0px 0px;
+}
+
 @media screen and (min-width: 780px) {
   .hero {
     background: url("./assets/Lgbg.png"), #010101;
