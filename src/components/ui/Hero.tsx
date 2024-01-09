@@ -13,7 +13,7 @@ export const Hero: React.FunctionComponent = () => {
         <div className='border2 border-green-500 hero'>
           <div className='w-[90%] border2 px-2 sm:px-0 sm:w-[85%] md:w-[84.2%] mx-auto mt-[12.12rem] intro md:mt-[17rem]'>
            <div className="heading">
-              <h1 className='text-[#F4F4F4] leading-[120%] tracking[2px] uppercase font-black style w-full sm:w-[80%] md:w-[100%] heads md:text-[5.6rem] lg:text-[6rem]'>designer with a professional vision</h1>
+              <h1 className='text-[#F4F4F4] leading-[120%] uppercase font-black style w-full sm:w-[80%] md:w-[100%] heads md:text-[5.6rem] lg:text-[6rem]'>designer with a professional vision</h1>
            </div>
            
            <div className="flex items-center justify-start mt-[1.5rem] md:mt-[1rem] md:justify-end sub-heading">

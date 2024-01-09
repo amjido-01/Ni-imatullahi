@@ -10,6 +10,10 @@ body {
   font-family: "Geist Variable";
 }
 
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .home {
   min-height: 100vh;
   display: flex;
@@ -86,7 +90,7 @@ body {
 }
 
 .heads {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-wrap: balance;
 }
 
