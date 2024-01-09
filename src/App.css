@@ -103,6 +103,11 @@ body {
   transform: scale(1.2);
 }
 
+footer {
+    border-top-left-radius: 42.5rem;
+    border-top-right-radius: 42.5rem;
+}
+
 @media screen and (min-width: 400px) {
   .hero {
     height: 110vh;
@@ -119,9 +124,6 @@ body {
   }
 }
 
-footer {
-  border-radius: 250px 250px 0px 0px;
-}
 
 @media screen and (min-width: 780px) {
   .hero {
@@ -130,5 +132,9 @@ footer {
     background-position: center;
     background-size: cover;
     height: 125vh;
+  }
+  footer {
+    border-top-left-radius: 109.6875rem;
+    border-top-right-radius: 109.6875rem;
   }
 }

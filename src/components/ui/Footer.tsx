@@ -10,20 +10,20 @@ import whatsapp from '@/assets/whatsapp.svg';
 
 export const Footer: React.FunctionComponent = () => {
 return (
-<div className='border-2 mt-[20rem]'>
+<div className='mt-[20rem]'>
 <footer className="bg-[#F4F4F4] mt-[4rem]">
-    <div className="w-full p-4 mx-auto">
-        <div className="border-2 border-red-500 text-[#010101] flex items-center justify-center mt-[6.06rem] md:mt-[14.9rem]">
-            <div className='border-2'>
+    <div className="w-full py-4 mx-auto">
+        <div className=" text-[#010101] flex items-center justify-center mt-[7.06rem] md:mt-[12.9rem] w-[80%] sm:w-[70%] md:w-[88%] lg:w-[48.1875rem] mx-auto">
+            <div className=''>
             <p className='text-[0.75rem] md:text-[1.5rem] style font-normal leading-[120%] uppercase'>Do you have any idea</p>
             <h1 className='leading-[120%] tracking[2px] uppercase font-black style w-full sm:w-[80%] md:w-[100%] heads md:text-[5.6rem] lg:text-[6rem]'>let’s build it together</h1>
 
-            <div className='border-2 mt-[1.75rem] md:mt-[6.125rem] border-black flex items-center'>
+            <div className='mt-[1.75rem] md:mt-[6.125rem] border-black flex items-center'>
 
-            <div className='flex flex-col sm:flex-row sm:items-center border-2 border-red-500 w-full gap-[1.44rem] md:gap-[7.38rem]'>
+            <div className='flex flex-col sm:flex-row sm:items-center w-full gap-[1.44rem] md:gap-[7.38rem]'>
                 <div>
                 <Button variant="outline"className='text-[#010101] text-[0.75rem] flex gap-[0.75rem] 
-                bg-[#F4F4F4] items-center md:text-[1.5rem] style font-bold leading-[120%] px-[1rem] py-[o.75rem] rounded-[3.125rem] border-[4px] border-[#000] border-solid leading-[120%]'>
+                bg-[#F4F4F4] items-center md:text-[1.5rem] style font-bold leading-[120%] px-[1rem] py-[o.75rem] md:px-[2rem] md:py-[1.5rem] rounded-[3.125rem] border-[4px] border-[#000] border-solid leading-[120%]'>
         Contact Me Now
         <VisitArrow className='md:mt-1 md:w-[1.375rem] md:h-[1.375rem] stroke-[#010101]'/>
     </Button>
@@ -41,7 +41,7 @@ return (
             
         </div>
         
-        <div className="mt-[7.49rem]">
+        <div className="mt-[2rem] md:mt-[7.49rem]">
             <hr className="border-black w-[80%] mx-auto" />
         
         <span className="block montserrat md:text-[0.875rem] style font-normal mt-[0.5rem] text-center leading-normal capitalize text-[#010101]">Copyright © 2023 All Rights Reserved.</span>
