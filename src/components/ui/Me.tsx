@@ -1,6 +1,6 @@
 import React from 'react';
 import { Word } from './Word';
-import  CircularTextComponent  from './CircularTextComponent';
+import  {CircularTextComponent}  from './CircularTextComponent';
 
 export const Me: React.FunctionComponent = () => {
   return (
