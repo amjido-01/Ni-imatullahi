@@ -37,21 +37,21 @@ export const CircularTextComponent: React.FC = () => {
 
   return (
     <motion.div
-      className="relative block w-full h-[2850px] border-2 border-red-500"
+      className="relative block w-full h-[100px] border-2 border-red-500"
       animate={controls}
     >
       <motion.div
-        className="flex flex-col items-center justify-center w-[200px] h-[200px] fixed right-0 circular-text"
+        className="flex flex-col border2 items-center justify-center w-[200px] h-[200px] fixed right-0 circular-text"
         initial={{ rotate: 0 }}
       >
-        <p className="text spaced-words text-[#fff] font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
+        <p className="text spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
           if yes Do you wanna know more?{' '}
         </p>
         <motion.div
-          className="w-[50px] h-[50px] absolute flex items-center justify-center"
+          className="w-[90px] h-[90px] border2 absolute flex items-center justify-center"
           whileHover={{ scale: 1.1 }}
         >
-          <Button className="rounded-[1.81456rem] py-[0.29031rem] px-[0.36294rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal uppercase style">
+          <Button className="rounded-[1.81456rem] py-[0.29031rem] px-[1rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal uppercase style">
             Click me
           </Button>
         </motion.div>
