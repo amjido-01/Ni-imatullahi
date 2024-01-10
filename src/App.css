@@ -106,11 +106,53 @@ body {
   width: 3rem;
   border-radius: 3.125rem;
 }
-.about {
+
+.text-stroke {
   -webkit-text-stroke: 1px white;
   font-family: sans-serif;
   color: #010101;
+  /* color: transparent; */
 }
+
+.container{
+    display: block;
+    width: 100%;
+    height: 2850px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.circular-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    position: fixed; 
+    top: calc(100vh - 200px);
+    right: 0;
+}
+
+.text{
+    font-family: "Fira Code";
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.arrow{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 footer {
     border-top-left-radius: 42.5rem;
