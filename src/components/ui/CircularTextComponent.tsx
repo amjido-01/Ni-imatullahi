@@ -12,7 +12,7 @@ export const CircularTextComponent: React.FC = () => {
       return; // Handle the case when textElement is null
     }
 
-    const rotate = new CircleType(textElement).radius(65);
+    const rotate = new CircleType(textElement).radius(40);
     console.log(rotate);
     
     // Use a local scroll listener on the component
