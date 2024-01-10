@@ -134,12 +134,8 @@ body {
     right: 0;
 }
 
-.text{
-    font-family: "Fira Code";
-    font-weight: 700;
-    font-size: 17px;
-    text-transform: uppercase;
-    color: white;
+.spaced-words {
+  word-spacing: 10px; /* Adjust the value to control the amount of space */
 }
 
 .arrow{

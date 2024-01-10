@@ -27,9 +27,9 @@ const CircularTextComponent: React.FC = () => {
   return (
     <div className="container">
       <div className="circular-text">
-        <p className="text">One • Two • Three • Viva • L'Algerie •</p>
+        <p className="text spaced-words text-[#fff] font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">if yes Do you wanna know more? </p>
         <div className="arrow">
-            <Button className='rounded-[3.125rem] bg-[#fff] py-[0.5rem] px-[0.625rem] text-[#010101] text-[0.75rem] leading-normal uppercase style'>Read More</Button>
+            <Button className='rounded-[3.125rem] bg-[#fff] py-[0.5rem] px-[0.625rem] text-[#010101] text-[0.75rem] leading-normal uppercase style'>Click me</Button>
         </div>
       </div>
     </div>
