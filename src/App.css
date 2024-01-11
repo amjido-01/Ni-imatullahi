@@ -115,7 +115,7 @@ body {
 }
 
 .circular-text{
-    top: calc(100vh - 200px);
+    /* top: ; */
 }
 
 .spaced-words {

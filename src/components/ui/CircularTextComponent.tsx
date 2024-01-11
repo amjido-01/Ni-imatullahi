@@ -36,16 +36,16 @@ export const CircularTextComponent: React.FC = () => {
   }, [controls]);
 
   return (
-    <div className=''>
+    <div className='relative'>
         <motion.div
-      className="w-full h-[100px] border-2 border-red-500"
+      className="w-full relative h-[100px] border-2 border-red-500"
       animate={controls}
     >
       <motion.div
         className="flex flex-col border-2 items-center justify-center w-[200px] h-[200px] fixed right-0 circular-text"
         initial={{ rotate: 0 }}
       >
-        <p className="text spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
+        <p className="text absolute top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
           if yes Do you wanna know more?{' '}
         </p>
         <motion.div
