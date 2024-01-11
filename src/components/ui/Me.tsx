@@ -7,6 +7,8 @@ import { Button } from './button';
 
 export const Me: React.FunctionComponent = () => {
   const controls = useAnimation();
+   // Create a reference to the main container element.
+
     useEffect(() => {
       const textElement = document.querySelector('.text') as HTMLParagraphElement | null;
       if (!textElement) {
@@ -35,7 +37,9 @@ export const Me: React.FunctionComponent = () => {
     };
     }, [controls])
   return (
-<div className='mt-[7.31rem] relative border-2 md:mt-[13.69rem] w-[90%] md:w-[80%] mx-auto'>
+    <div className='relative h-[300vh] border-2 border-red-500 mt-14'>
+      
+      <div className='sticky overflow-hidden top-0 h-screen border-2 w-[90%] md:w-[80%] mx-auto'>
   <div>
     <span className='bar mb-[0.25rem] h-[0.125rem] md:h-[0.25rem]' 
         style={{ backgroundColor:  "white" }}>
@@ -50,15 +54,16 @@ export const Me: React.FunctionComponent = () => {
 
 
   <motion.div
-      className="w-full relative h-[200px] border-2 border-red-500"
+  
+      className="w-full relative h-[50h] border-2 border-red-500"
       animate={controls}
     >
 
     <motion.div
-      className="flex flexcol absolute border-2 items-center justify-center w-[200px] h-[200px] fixd right-0 circular-text"
+      className="flex items-center justify-center w-full mr-2 border-2 border-green-500 flexcol fixd circular-text"
       initial={{ rotate: 0 }}
     >
-        <p className="text border-2 relative top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
+        <p className="text relative top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
           if yes Do you wanna know more?{' '}
         </p>
         <div
@@ -72,6 +77,7 @@ export const Me: React.FunctionComponent = () => {
       </motion.div>
     </motion.div>
 
-</div>
+    </div>
+    </div>
   )
 }
