@@ -58,7 +58,7 @@ return (
       animate={controls}
     >
       <motion.div
-        className="flex border-2 items-center justify-center w-[200px] h-[200px] right-0 circular-text"
+        className="flex border-2 items-center justify-center mr-10 w-[100px] h-[200px] right-0 circular-text"
         initial={{ rotate: 0 }}
       >
         <p className="text absolute top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
