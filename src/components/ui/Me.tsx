@@ -38,7 +38,7 @@ export const Me: React.FunctionComponent = () => {
     }, [controls])
 
 return (
-  <div className='relative h-[300vh] border-2 border-red-500 mt-14'>
+  <div className='h-[300vh] border-2 border-red-500 mt-14'>
       
       <div className='sticky overflow-hidden top-0 h-screen border-2 w-[90%] md:w-[80%] mx-auto'>
       <div>
@@ -52,31 +52,29 @@ return (
     <Word value='Hi there, I’m Muhammad Niimatullah, based in kano. user Interface designer with a passion for designing beautiful and functional user experiences with 2+ years of Experiences . Minimalist who believe less and simple is the best.' />
 
 
-    <motion.div
-    
-        className="w-full relative h[50h] border-2 border-red-500"
-        animate={controls}
-      >
-
+    <div className='relative'>
+        <motion.div
+      className="w-full relative flex justify-end border-2 border-red-500"
+      animate={controls}
+    >
       <motion.div
-        className="flex items-center justify-end justifycenter w-full mr2 border-2 border-green-500  circular-text"
+        className="flex border-2 items-center justify-center w-[200px] h-[200px] right-0 circular-text"
         initial={{ rotate: 0 }}
       >
-         <div className=' mr-20 border-2 relative'>
-         <p className="text  top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
-            if yes Do you wanna know more?{' '}
-          </p>
-          <div
-            className="w-[90px] h[90px] border-2 flex justifycenter"
-            // whileHover={{ scale: 1.1 }}
-          >
-            <Button className="rounded-[1.81456rem] py-[0.29031rem] px-[1rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal uppercase style">
-              Click me
-            </Button>
-          </div>
-         </div>
+        <p className="text absolute top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
+          if yes Do you wanna know more?{' '}
+        </p>
+        <motion.div
+          className="w-[90px] h-[90px] border2 absolute flex items-center justify-center"
+          whileHover={{ scale: 1.1 }}
+        >
+          <Button className="rounded-[1.81456rem] py-[0.29031rem] px-[1rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal uppercase style">
+            Click me
+          </Button>
         </motion.div>
       </motion.div>
+    </motion.div>
+    </div>
 
       </div>
     </div>
