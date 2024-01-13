@@ -59,15 +59,15 @@ return (
       >
 
       <motion.div
-        className="flx items-center justify-end justifycenter w-full mr2 border-2 border-green-500  circular-text"
+        className="flex items-center justify-end justifycenter w-full mr2 border-2 border-green-500  circular-text"
         initial={{ rotate: 0 }}
       >
-         <div>
+         <div className=' mr-20 border-2 relative'>
          <p className="text  top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
             if yes Do you wanna know more?{' '}
           </p>
           <div
-            className="w-[90px] h[90px] border2  flex items-center justify-center"
+            className="w-[90px] h[90px] border-2 flex justifycenter"
             // whileHover={{ scale: 1.1 }}
           >
             <Button className="rounded-[1.81456rem] py-[0.29031rem] px-[1rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal uppercase style">
