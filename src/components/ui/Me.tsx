@@ -58,7 +58,7 @@ return (
       animate={controls}
     >
       <motion.div
-        className="flex border-2 items-center justify-center mr-10 w-[100px] h-[200px] right-0 circular-text"
+        className="flex border-2 items-center justify-center mr-10 w-[100px] h-[100px] md:h-[200px] right-0 circular-text"
         initial={{ rotate: 0 }}
       >
         <p className="text absolute top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
@@ -68,7 +68,7 @@ return (
           className="w-[90px] h-[90px] border2 absolute flex items-center justify-center"
           whileHover={{ scale: 1.1 }}
         >
-          <Button className="rounded-[1.81456rem] py-[0.29031rem] px-[1rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal uppercase style">
+          <Button className="rounded-[1.81456rem] m-[10px] py-[0.29031rem] px-[1rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal uppercase style">
             Click me
           </Button>
         </motion.div>
