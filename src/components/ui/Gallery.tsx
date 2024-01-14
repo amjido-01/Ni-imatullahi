@@ -1,3 +1,4 @@
+import React from 'react';
 import live from '@/assets/live.png';
 import kustbookletlg from '@/assets/kustbookletlg.png';
 import kustbookletsm from '@/assets/kustbookletsm.png';

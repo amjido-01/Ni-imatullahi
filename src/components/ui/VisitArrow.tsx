@@ -1,3 +1,4 @@
+import React from 'react'
 import { SVGProps } from "react"
 export const VisitArrow = (props: SVGProps<SVGSVGElement>) => (
   <svg
