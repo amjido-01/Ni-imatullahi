@@ -77,11 +77,11 @@ body {
 }
 
 .hero {
-  background-image: url('./assets/iphone.png'), #010101;
+  background-image: url('./assets/iphone.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .intro {
