@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+
+import { useEffect } from 'react';
 import { Word } from './Word';
 // import  {CircularTextComponent}  from './CircularTextComponent';
 import CircleType from 'circletype';
