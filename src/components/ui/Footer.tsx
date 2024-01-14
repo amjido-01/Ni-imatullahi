@@ -20,15 +20,15 @@ return (
 
             <div className='mt-[1.75rem] md:mt-[6.125rem] border-black flex items-center'>
 
-            <div className='flex flex-col sm:flex-row sm:items-center w-full gap-[1.44rem] md:gap-[7.38rem]'>
+            <div className='flex flex-row items-center w-full gap-[1rem] md:gap-[7.38rem]'>
                 <div>
-                <Button variant="outline"className='text-[#010101] text-[0.75rem] flex gap-[0.75rem] 
-                bg-[#F4F4F4] items-center md:text-[1.5rem] style font-bold leading-[120%] px-[1rem] py-[o.75rem] md:px-[2rem] md:py-[1.5rem] rounded-[3.125rem] border-[4px] border-[#000] border-solid leading-[120%]'>
+                <Button variant="outline"className='text-[#010101] text-[0.75rem] flex gap-[0.5rem] md:gap-[0.75rem] 
+                bg-[#F4F4F4] items-center md:text-[1.5rem] style font-bold leading-[120%] px-[0.8rem] py-[o.75rem] md:px-[2rem] md:py-[1.5rem] rounded-[3.125rem] border-2 md:border-[4px] border-[#000] border-solid leading-[120%]'>
         Contact Me Now
         <VisitArrow className='md:mt-1 md:w-[1.375rem] md:h-[1.375rem] stroke-[#010101]'/>
     </Button>
                 </div>
-            <div className='flex gap-[1rem] md:gap-[2rem]'>
+            <div className='flex gap-[0.5rem] sm:gap-[1rem] md:gap-[2rem]'>
                 <img src={dribble} alt="dribble icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />
                 <img src={x} alt="twitter x icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />
                 <img src={facebook} alt="facebook icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />
