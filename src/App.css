@@ -108,9 +108,9 @@ body {
 }
 
 .text-stroke {
-  -webkit-text-stroke: 1px white;
-  font-family: sans-serif;
-  color: #010101;
+  /* -webkit-text-stroke: 1px white;
+  font-family: sans-serif; */
+  color: #fff;
   /* color: transparent; */
 }
 
