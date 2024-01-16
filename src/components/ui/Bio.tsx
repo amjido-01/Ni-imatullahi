@@ -4,7 +4,7 @@ import { Word } from './Word';
 import CircleType from 'circletype';
 import { motion, useAnimation } from 'framer-motion';
 import { Button } from './button';
-import { Gallery } from './Gallery';
+import  { Test } from './Test'
 
 export const Bio: React.FunctionComponent = () => {
   const controls = useAnimation();
@@ -39,9 +39,9 @@ export const Bio: React.FunctionComponent = () => {
     }, [controls])
 
 return (
-  <div className='h-[300vh] border-2 border-red-500 mt-14'>
+  <div className='h-[150vh] md:h-[300vh] relative border-2 border-red-500 mt-14'>
       
-      <div className='sticky overflow-hidden top-0 h-screen border2 w-[90%] md:w-[80%] mx-auto'>
+      <div className='sticky overflow-hidden top-0 hscreen border2 w-[90%] md:w-[80%] mx-auto'>
       <div>
         <span className='bar mb-[0.25rem] h-[0.125rem] md:h-[0.25rem]' 
             style={{ backgroundColor:  "white" }}>
@@ -79,7 +79,10 @@ return (
     </div>
 
       </div>
-      <Gallery />
+
+        <div className=' absolute w-full border-2'>
+            <Test />
+        </div>
     </div>
   )
 }
