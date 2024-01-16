@@ -38,7 +38,7 @@ export const Bio: React.FunctionComponent = () => {
     }, [controls])
 
 return (
-  <div className='h-screen md:h-[300vh] relative border2 border-red-500 mt-[7.31rem] md:mt-14'>
+  <div className='h-screen md:h-[300vh] relative border2 border-red-500 mt-[7.31rem] md:mt-[13.69rem]'>
       
       <div className='sticky overflow-hidden top-0 hscreen border2 w-[90%] md:w-[80%] mx-auto'>
       <div>
@@ -53,13 +53,13 @@ return (
       <Word value='Hi there, I’m Muhammad Niimatullah, based in kano. user Interface designer with a passion for designing beautiful and functional user experiences with 2+ years of Experiences . Minimalist who believe less and simple is the best.' />
 
 
-    <div className='relative'>
+    <div className='relative border2 border-red-500 md:mt-[1.5rem]'>
         <motion.div
       className="w-full relative flex justify-end border2 border-red-500"
       animate={controls}
     >
       <motion.div
-        className="flex border2 items-center justify-center mr-10 w-[100px] h-[100px] md:h-[200px] right-0 circular-text"
+        className="flex border2 items-center border2 justify-center mr-5 w-[100px] h-[100px] md:h-[200px] right-0 circular-text"
         initial={{ rotate: 0 }}
       >
         <p className="text absolute top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
@@ -69,7 +69,7 @@ return (
           className="w-[100px] h-[90px] border2 absolute flex items-center justify-center"
           // whileHover={{ scale: 1.1 }}
         >
-          <Button className="rounded-[1.81456rem] py-[0.29031rem] px-[1rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal hover:bg-white uppercase style">
+          <Button size='sm' className="rounded-[1.81456rem] py-[0.10rem] px-[1rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal hover:bg-white uppercase style">
             Click me
           </Button>
         </motion.div>
