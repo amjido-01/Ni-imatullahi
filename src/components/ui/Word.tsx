@@ -22,7 +22,7 @@ export const Word: React.FunctionComponent<wordProps> = ({ value }) => {
   const texts = value.split(" ");
 
   return (
-    <div className="border-2  mb-8">
+    <div className="border2  mb-8">
         <h3
       className="flex flex-wrap mx-auto md:mx-0 items-center text-[1.5rem] style text-stroke md:text-[3.25rem] style font-black leading-[120%] capitalize"
       ref={element}
