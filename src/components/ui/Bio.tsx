@@ -1,12 +1,11 @@
-import React from 'react';
+import React from 'react'; 
 import { useEffect } from 'react';
 import { Word } from './Word';
-// import  {CircularTextComponent}  from './CircularTextComponent';
 import CircleType from 'circletype';
 import { motion, useAnimation } from 'framer-motion';
 import { Button } from './button';
 
-export const Me: React.FunctionComponent = () => {
+export const Bio: React.FunctionComponent = () => {
   const controls = useAnimation();
    // Create a reference to the main container element.
 
