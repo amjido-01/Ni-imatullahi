@@ -4,6 +4,7 @@ import { Word } from './Word';
 import CircleType from 'circletype';
 import { motion, useAnimation } from 'framer-motion';
 import { Button } from './button';
+import { Gallery } from './Gallery';
 
 export const Bio: React.FunctionComponent = () => {
   const controls = useAnimation();
@@ -38,7 +39,7 @@ export const Bio: React.FunctionComponent = () => {
     }, [controls])
 
 return (
-  <div className='h-[300vh] border2 border-red-500 mt-14'>
+  <div className='h-[300vh] border-2 border-red-500 mt-14'>
       
       <div className='sticky overflow-hidden top-0 h-screen border2 w-[90%] md:w-[80%] mx-auto'>
       <div>
@@ -49,7 +50,8 @@ return (
             About me
         </p>
       </div>
-    <Word value='Hi there, I’m Muhammad Niimatullah, based in kano. user Interface designer with a passion for designing beautiful and functional user experiences with 2+ years of Experiences . Minimalist who believe less and simple is the best.' />
+
+      <Word value='Hi there, I’m Muhammad Niimatullah, based in kano. user Interface designer with a passion for designing beautiful and functional user experiences with 2+ years of Experiences . Minimalist who believe less and simple is the best.' />
 
 
     <div className='relative'>
@@ -77,6 +79,7 @@ return (
     </div>
 
       </div>
+      <Gallery />
     </div>
   )
 }
