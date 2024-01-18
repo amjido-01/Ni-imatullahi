@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-width: 0;
 }
 
 body {
@@ -126,6 +127,12 @@ body {
 footer {
     border-top-left-radius: 42.5rem;
     border-top-right-radius: 42.5rem;
+}
+
+hr {
+  /* border: 0.03125rem solid ; */
+  background-color: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, #000 51%, rgba(0, 0, 0, 0.00) 100%) !important;
+  height: 0.03125rem;
 }
 
 @media screen and (min-width: 400px) {
