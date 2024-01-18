@@ -54,10 +54,10 @@ const Words: React.FunctionComponent<WordsProps> = ({
   range,
   progress,
 }) => {
-  const opacity = useTransform(progress, range, [0, 1]);
+  const opacity = useTransform(progress, range, [0.03, 1]);
   return (
     <span className="relative mr-[6px]">
-      <span className=" absolute opacity-[0.1]">{children}</span>
+      <span className=" absolute opacity-[0]">{children}</span>
       <motion.span style={{ opacity: opacity }} className="">
         {children}
       </motion.span>

@@ -13,7 +13,7 @@ export const VisitArrow = (props: SVGProps<SVGSVGElement>) => (
       // stroke="#F4F4F4"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={3}
+      strokeWidth={2}
       d="m7.906 5.313 6.188 6.187-6.188 6.188"
     />
   </svg>
