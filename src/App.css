@@ -130,9 +130,9 @@ footer {
 }
 
 hr {
-  /* border: 0.03125rem solid ; */
-  background-color: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, #000 51%, rgba(0, 0, 0, 0.00) 100%) !important;
-  height: 0.03125rem;
+  background: linear-gradient(white, white) padding-box,
+  linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, #000 51%, rgba(0, 0, 0, 0.00) 100%) border-box;
+  border: 0.03125rem solid transparent;
 }
 
 @media screen and (min-width: 400px) {
