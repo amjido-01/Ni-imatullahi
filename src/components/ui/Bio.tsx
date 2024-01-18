@@ -18,7 +18,7 @@ export const Bio: React.FunctionComponent = () => {
       const rotate = new CircleType(textElement);
       console.log(rotate);
 
-       const handleScroll: EventListener = () => {
+      const handleScroll: EventListener = () => {
       const yOffset = window.scrollY;
       const componentOffset = textElement.getBoundingClientRect().top;
 
@@ -59,20 +59,20 @@ return (
       animate={controls}
     >
       <motion.div
-        className="flex border2 items-center border2 justify-center mr-5 w-[100px] h-[100px] md:h-[200px] right-0 circular-text"
+        className="flex border-2 items-center border2 justify-center mr-5 w-[150px] h-[100px] md:h-[200px] right-0 circular-text"
         initial={{ rotate: 0 }}
       >
-        <p className="text absolute top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
+       <p className="text absolute top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
         if yes Do you wanna know more? <span className=''> &nbsp;&nbsp;</span>
         </p>
         <motion.div
-          className="w-[100px] h-[90px] border2 absolute flex items-center justify-center"
+          className="w-[100px] border-2 h-[90px] border2 absolute flex items-center justify-center"
           // whileHover={{ scale: 1.1 }}
         >
           <Button size='sm' className="rounded-[1.81456rem] py-[0.10rem] px-[1rem] md:rounded-[3.125rem] bg-[#fff] md:py-[0.5rem] md:px-[0.625rem] text-[#010101] text-[0.4355rem] md:text-[0.75rem] leading-normal hover:bg-white uppercase style">
             Click me
           </Button>
-        </motion.div>
+       </motion.div>
       </motion.div>
     </motion.div>
     </div>
