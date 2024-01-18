@@ -30,7 +30,7 @@ export const Word: React.FunctionComponent<wordProps> = ({ value }) => {
       {texts.map((text, index) => {
         const start = index / texts.length;
         const end = start + 1 / texts.length;
-        // console.log([start, end]);
+        console.log([start, end]);
 
         return (
           <Words key={index} range={[start, end]} progress={scrollYProgress}>
@@ -54,7 +54,7 @@ const Words: React.FunctionComponent<WordsProps> = ({
   range,
   progress,
 }) => {
-  const opacity = useTransform(progress, range, [0.03, 1]);
+  const opacity = useTransform(progress, range, [0, 1]);
   return (
     <span className="relative mr-[6px]">
       <span className=" absolute opacity-[0]">{children}</span>
