@@ -125,8 +125,8 @@ body {
 
 
 footer {
-    border-top-left-radius: 42.5rem;
-    border-top-right-radius: 42.5rem;
+    border-top-left-radius: 30.6875rem;
+    border-top-right-radius: 30.6875rem;
 }
 
 hr {
@@ -161,7 +161,7 @@ hr {
     height: 125vh;
   }
   footer {
-    border-top-left-radius: 100.6875rem;
-    border-top-right-radius: 100.6875rem;
-  }
+    border-top-left-radius: 800%;
+    border-top-right-radius: 800%;
+}
 }
