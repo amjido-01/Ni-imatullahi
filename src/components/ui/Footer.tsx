@@ -23,9 +23,9 @@ return (
             <div className='flex flex-row items-center w-full gap-[1rem] md:gap-[7.38rem]'>
                 <div>
                 <Button variant="outline"className='text-[#010101] text-[0.75rem] flex gap-[0.5rem] md:gap-[0.75rem] 
-                bg-[#F4F4F4] items-center md:text-[1.5rem] style font-bold leading-[120%] px-[0.5rem] py-[0.75rem] md:px-[2rem] md:py-[1.5rem] rounded-[3.125rem] border-[1.5px] md:border-[3px] border-[#000] border-solid leading-[120%]'>
+                bg-[#F4F4F4] items-center md:text-[1.5rem] style font-bold leading-[120%] px-[0.5rem] py-[0.75rem] md:px-[1.8rem] md:py-[1.5rem] rounded-[3.125rem] border-[1.5px] md:border-[3px] border-[#000] border-solid leading-[120%]'>
         Contact Me Now
-        <VisitArrow className='md:mt-1 md:w-[1.375rem] md:h-[1.375rem] stroke-[#010101]'/>
+        <VisitArrow className='md:mt-1 border2 md:w-[1.8rem] md:h-[1.375rem] stroke-[#010101]'/>
     </Button>
                 </div>
             <div className='flex gap-[0.5rem] sm:gap-[1rem] md:gap-[2rem]'>
