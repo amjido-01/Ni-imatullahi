@@ -5,17 +5,30 @@ export const VisitArrow = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={22}
-    height={23}
+    height={22}
     fill="none"
     {...props}
   >
     {/* common */}
-    <path
-      // stroke="#F4F4F4"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m7.906 5.313 6.188 6.187-6.188 6.188"
-    />
+    <motion.g
+      //  initial={{ x: 0 }}
+       animate={{ x: [-5, 10, -5]}}
+       transition={{
+         duration: 5,
+         stiffness: 50,
+         delay: 8,
+         type: "keyframes",
+         repeat: Infinity,
+         ease: "easeInOut",
+       }}
+      >
+      <path
+        // stroke="#F4F4F4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="m7.906 5.313 6.188 6.187-6.188 6.188"
+      />
+    </motion.g>
   </svg>
 )
