@@ -1,7 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion'
 import { SVGProps } from "react";
-export const VisitArrow = (props: SVGProps<SVGSVGElement>) => (
+
+type VisitArrowProps = SVGProps<SVGSVGElement> & {
+  animateX: number[];
+};
+
+export const VisitArrow: React.FunctionComponent<VisitArrowProps> = ({ animateX = [-5, 10, -5],
+  ...props}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={22}
@@ -9,9 +15,8 @@ export const VisitArrow = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    {/* common */}
     <motion.g
-      //  initial={{ x: 0 }}
+       initial={{ x: 0 }}
        animate={{ x: [-5, 10, -5]}}
        transition={{
          duration: 5,
@@ -23,7 +28,6 @@ export const VisitArrow = (props: SVGProps<SVGSVGElement>) => (
        }}
       >
       <path
-        // stroke="#F4F4F4"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth={2}
