@@ -63,7 +63,7 @@ return (
         initial={{ rotate: 0 }}
       >
        <p className="text absolute top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">
-        if yes Do you wanna know more? <span className=''> &nbsp;&nbsp;</span>
+        if yes Do you wanna know more? Add some text <span className=''> &nbsp;&nbsp;</span>
         </p>
         <motion.div
           className="w-[100px] border-2 h-[90px] border2 absolute flex items-center justify-center"
