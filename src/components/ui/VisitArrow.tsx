@@ -19,9 +19,9 @@ export const VisitArrow: React.FunctionComponent<VisitArrowProps> = ({ animateX 
        initial={{ x: 0 }}
        animate={{ x: [-5, 10, -5]}}
        transition={{
-         duration: 5,
+         duration: 2, //It determines the total time the animation will run from start to finish.
          stiffness: 50,
-         delay: 8,
+         delay: 2, //It introduces a pause before the animation begins, allowing you to control when the animation should start after it is triggered.
          type: "keyframes",
          repeat: Infinity,
          ease: "easeInOut",

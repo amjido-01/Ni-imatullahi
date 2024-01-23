@@ -42,7 +42,7 @@ return (
         </div>
         
         <div className="mt-[2rem] md:mt-[7.49rem]">
-            <hr className="w-[90%] md:w-[80%] mx-auto" />
+            <hr className="w-[90%] footer-hr md:w-[80%] mx-auto" />
         
         <span className="block montserrat text-[0.625rem] md:text-[0.875rem] style font-normal mt-[0.5rem] text-center leading-normal capitalize text-[#010101]">Copyright © 2023 All Rights Reserved.</span>
         </div>

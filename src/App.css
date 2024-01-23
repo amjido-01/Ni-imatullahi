@@ -133,7 +133,14 @@ footer {
     border-top-right-radius: 30.6875rem;
 }
 
-hr {
+.white-hr {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #fff 51%, rgba(255, 255, 255, 0.00) 100%) border-box;
+  border: 0.03125rem solid transparent;
+}
+
+
+.footer-hr {
   background: linear-gradient(white, white) padding-box,
   linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, #000 51%, rgba(0, 0, 0, 0.00) 100%) border-box;
   border: 0.03125rem solid transparent;
