@@ -53,13 +53,13 @@ return (
       <Word value='Hi there, I’m Muhammad Niimatullah, based in kano. user Interface designer with a passion for designing beautiful and functional user experiences with 2+ years of Experiences . Minimalist who believe less and simple is the best.' />
 
 
-    <div className='relative border2 border-red-500 md:mt-[1.5rem]'>
+    <div className='relative border2 mt-[1.78rem] md:mt-[3.69rem]'>
         <motion.div
-      className="w-full relative flex justify-end border2 border-red-500"
+      className="w-full relative flex justify-end border2 border-green-500"
       animate={controls}
     >
       <motion.div
-        className="flex border-2 items-center border2 justify-center mr-5 w-[150px] h-[100px] md:h-[200px] right-0 circular-text"
+        className="flex border-2 items-center border-red-500 justify-center mr-5 w-[150px] h-[100px] md:h-[200px] right-0 circular-text"
         initial={{ rotate: 0 }}
       >
        <p className="text absolute top20 spaced-words text-[#fff] p-4 font-extrabold leading-none text-[0.50806rem] md:text-[0.875rem] uppercase">

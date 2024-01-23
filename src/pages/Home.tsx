@@ -8,6 +8,7 @@ export const Home: React.FunctionComponent = () => {
     <div className='home'>
       <Hero />
       <Bio />
+      <hr className="white-hr w-[90%] md:w-[80%] mx-auto" />
       <Services />
       <Footer />
     </div>
