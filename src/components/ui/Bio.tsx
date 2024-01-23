@@ -77,6 +77,7 @@ return (
     </motion.div>
     </div>
 
+    <hr className="white-hr w-[90%] md:w-[80%] mx-auto mt-[2.46rem] md:mt-[5.22rem]" />
       </div>
     </div>
   )
