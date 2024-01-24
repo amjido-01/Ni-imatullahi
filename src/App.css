@@ -139,6 +139,9 @@ footer {
   border: 0.03125rem solid transparent;
 }
 
+.trans {
+  transform: rotate(-90deg);
+}
 
 .footer-hr {
   background: linear-gradient(white, white) padding-box,
