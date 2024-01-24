@@ -35,24 +35,26 @@ const cardData = [
 export const Services:React.FunctionComponent = () => {
   return (
     <div className='md:mt-[15.25rem] border-2'>
-      <div className='border-2 w-[95%] md:w-[80%] mx-auto'>
+      <div className='border-2 w-[95%] md:w-[72%] mx-auto'>
 
-        <div className='border-red-500 border-2 flex md:gap[16.09rem] items-center justifycenter my-[5rem]'>
+        <div className='border-red-500 border-2 flx grid grid-cols-3 md:gap[16.09rem] justifycenter my-[5rem]'>
 
-          <div className='border-2 trans w[10%]'>
-            <p className='text-[#F4F4F4] text-[0.625rem] md:text-[1rem] style font-black uppercase leading-[120%]'>Services i proudly offer</p>
+          <div className='border-2 flex justify-end trans w[10%]'>
+           <div className=''>
+           <p className='text-[#F4F4F4] text-[0.625rem] md:text-[1rem] style font-black uppercase leading-[120%]'>Services i proudly offer</p>
             <span className='bar mb-[0.25rem] h-[0.125rem] md:h-[0.25rem]' 
             style={{ backgroundColor:  "white" }}>
         </span>
+           </div>
           </div>
 
-          <div className='border-2 w[90%] w-full flex justify-center'>
+          <div className='border-2 col-span-2 w[90%] w-full flex justify-center'>
           <ServicesCard background={cardData[0].background} title={cardData[0].title} icon={cardData[0].icon} content={cardData[0].content}/>
           </div>
 
         </div>
 
-        <div className='border-red-500 border-2 flex flex-col gap-[5rem] items-center md:flex-row justify-center md:my-[8.75rem] md:gap-[5rem]'>
+        <div className='border-red-500 border-2 flex flex-col gap-[5rem] items-center md:flex-row justify-center md:my-[8.75rem] md:gap-[6rem]'>
           <ServicesCard background={cardData[1].background} title={cardData[1].title} icon={cardData[1].icon} content={cardData[1].content}/>
           <ServicesCard background={cardData[2].background} title={cardData[2].title} icon={cardData[2].icon} content={cardData[2].content}/>
         </div>
