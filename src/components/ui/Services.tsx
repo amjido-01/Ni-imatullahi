@@ -36,16 +36,18 @@ const cardData = [
 
 export const Services:React.FunctionComponent = () => {
   return (
-    <div className='md:mt-[15.25rem] border-2 flex'>
+    <div className='md:mt-[15.25rem] border-2 flex justify-center'>
 
-      <div className='border2 flex justify-end  border-green-500 md:w-[10%]'>
+      <div className='border-2 flex justify-end  border-red-500 md:w-[12.5%]'
+      >
+
       <div className='border-2 h-fit'>
       <img className='block sm:hidden' src={proudsmlf} alt="text" />
       <img className='hidden sm:block' src={proud} alt="text" />
           </div>
       </div>
 
-      <div className='border-2 w-[95%] md:w-[75%] mx-auto'>
+      <div className='border-2 border-pink-400 w-[95%] md:w-[75%] mxauto'>
         <div className='border-red-500 border2 flex items-center justify-center my-[44px] md:my-[55px] h-[400px]'>
           
           <div className='border-2 flex md:justify-center'>
@@ -57,23 +59,20 @@ export const Services:React.FunctionComponent = () => {
           <ServicesCard background={cardData[1].background} title={cardData[1].title} icon={cardData[1].icon} content={cardData[1].content}/>
           <ServicesCard background={cardData[2].background} title={cardData[2].title} icon={cardData[2].icon} content={cardData[2].content}/>
         </div>
-{/* 
-        <div className='border-red-500 border-2 flex items-center justify-center my-[5rem] '>
+
+        <div className='border-red-500 flex items-center justify-center my-[44px] md:my-[55px] h-[400px]'>
           <ServicesCard background={cardData[3].background} title={cardData[3].title} icon={cardData[3].icon} content={cardData[3].content}/>
-        </div> */}
+        </div>
 
       </div>
 
-      {/* <div className='border-2 border-green-500 md:w-[10%]'>
-      <img className='block sm:hidden' src={proudsmlf} alt="text" />
-      <img className='hidden sm:block' src={proud} alt="text" />
-      </div> */}
-      <div className='border-2 flex justify-end  border-green-500 md:w-[10%]'>
+      <div className='border-2 flex flex-col justify-end  border-yellow-500 md:w-[12.5%] '>
 
-      <div className='border-2 flex flex-col justify-end'>
+      <div className='border-2 justify-end w-fit'>
       <img className='block sm:hidden' src={proudsmlf} alt="text" />
       <img className='hidden sm:block' src={proud} alt="text" />
           </div>
+          
       </div>
 
       </div>
