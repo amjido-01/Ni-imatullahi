@@ -52,11 +52,11 @@ export const Services:React.FunctionComponent = () => {
 
        <div className='border2 border-red-500 flex items-center justify-center my-[44px] md:my-[55px] h-[400px]'>
         <div className='border2 h-full'>
-        <img className='block sm:hidden' src={proudsmlf} alt="text" />
+        <img className='block mt-5 sm:hidden' src={proudsmlf} alt="text" />
       <img className='hidden sm:block' src=     {proud} alt="text" />
         </div>
 
-         <div className='border2 flex md:justify-center w-[95%] pr5 sm:pr-0'>
+         <div className='border2 flex sm:justify-center w-[95%] pr5 sm:pr-0'>
          <ServicesCard background={cardData[0].background} title={cardData[0].title} icon={cardData[0].icon} content={cardData[0].content}/>
          </div>
         </div>
@@ -72,9 +72,9 @@ export const Services:React.FunctionComponent = () => {
          <ServicesCard background={cardData[3].background} title={cardData[3].title} icon={cardData[3].icon} content={cardData[3].content}/>
          </div>
 
-         <div className='border2 h-full'>
-         <img className='block sm:hidden' src={proudrgsm} alt="text" />
-      <img className='hidden sm:block' src={proudrg} alt="text" />
+         <div className='border2 h-full relative'>
+         <img className='block mt-[220px] sm:hidden' src={proudrgsm} alt="text" />
+      <img className='hidden mt-[125px] sm:block' src={proudrg} alt="text" />
           </div>
         </div>
 
