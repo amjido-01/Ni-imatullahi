@@ -46,14 +46,14 @@ export const Services:React.FunctionComponent = () => {
       </div>
 
       <div className='border-2 w-[95%] md:w-[75%] mx-auto'>
-        <div className='border-red-500 border2 flex items-center justify-center my-[5rem] h-[400px]'>
+        <div className='border-red-500 border2 flex items-center justify-center my-[44px] md:my-[55px] h-[400px]'>
           
           <div className='border-2 flex md:justify-center'>
           <ServicesCard background={cardData[0].background} title={cardData[0].title} icon={cardData[0].icon} content={cardData[0].content}/>
           </div>
         </div>
 
-        <div className='border-red-500 border-2 flex flex-col gap-[5rem] sm:items-center lg:flex-row justify-center md:my-[8.75rem] md:gap-[5rem]'>
+        <div className='border-red-500 border-2 flex flex-col gap-[5rem] sm:items-center lg:flex-row justify-center my-[44px] md:my-[65px] md:gap-[6rem]'>
           <ServicesCard background={cardData[1].background} title={cardData[1].title} icon={cardData[1].icon} content={cardData[1].content}/>
           <ServicesCard background={cardData[2].background} title={cardData[2].title} icon={cardData[2].icon} content={cardData[2].content}/>
         </div>
