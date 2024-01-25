@@ -3,7 +3,8 @@ import { ServicesCard } from './ServicesCard';
 import research from '@/assets/research.svg'
 import prototyping from '@/assets/prototyping.svg';
 import testing from '@/assets/testing.svg';
-import visualDesign from '@/assets/visualDesign.svg'
+import visualDesign from '@/assets/visualDesign.svg';
+import proud from '@/assets/proud.svg'
 const cardData = [
   {id: 0,
     icon: research,
@@ -34,15 +35,21 @@ const cardData = [
 
 export const Services:React.FunctionComponent = () => {
   return (
-    <div className='md:mt-[15.25rem] border-2'>
-      <div className='border-2 border-green-500'></div>
+    <div className='md:mt-[15.25rem] border-2 flex'>
+      <div className='border-2 flex justify-end  border-green-500 w-[10%]'>
+      <div className='border-2 h-fit'>
+            <img src={proud} alt="" />
+          </div>
+      </div>
       <div className='border-2 w-[95%] md:w-[75%] mx-auto'>
         <div className='border-red-500 border-2 flex items-center justifycenter my-[5rem]'>
-          <div></div>
+          
+          <div className='border-2'>
           <ServicesCard background={cardData[0].background} title={cardData[0].title} icon={cardData[0].icon} content={cardData[0].content}/>
+          </div>
         </div>
 
-        <div className='border-red-500 border-2 flex flex-col gap-[5rem] items-center md:flex-row justify-center md:my-[8.75rem] md:gap-[5rem]'>
+        <div className='border-red-500 border-2 flex flex-col gap-[5rem] items-center lg:flex-row justify-center md:my-[8.75rem] md:gap-[5rem]'>
           <ServicesCard background={cardData[1].background} title={cardData[1].title} icon={cardData[1].icon} content={cardData[1].content}/>
           <ServicesCard background={cardData[2].background} title={cardData[2].title} icon={cardData[2].icon} content={cardData[2].content}/>
         </div>
@@ -51,7 +58,7 @@ export const Services:React.FunctionComponent = () => {
           <ServicesCard background={cardData[3].background} title={cardData[3].title} icon={cardData[3].icon} content={cardData[3].content}/>
         </div>
       </div>
-      <div className='border-2 border-green-500'></div>
+      <div className='border-2 border-green-500 w-[10%]'></div>
       </div>
   )
 }
