@@ -38,7 +38,7 @@ const cardData = [
 
 export const Services:React.FunctionComponent = () => {
   return (
-    <div className='md:mt-[15.25rem] border2 flex justify-center'>
+    <div className='md:mt-[15.25rem] border2 flex justify-center service'>
 
       {/* <div className='border2 flex justify-end  border-red-500 md:w-[12.5%]'
       >
