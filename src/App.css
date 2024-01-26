@@ -190,7 +190,8 @@ footer {
   .card {
     /* background-image: lightgray 50% / cover no-repeat, linear-gradient(180deg, rgba(52, 58, 66, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%); */
     background:  rgba(110, 110, 110, 0.1);
-    backdrop-filter: 20px;
+    -webkit-backdrop-filter: blur(5px) !important;
+    backdrop-filter: blur(5px) !important;
   }
   footer {
     border-top-left-radius: 800%;

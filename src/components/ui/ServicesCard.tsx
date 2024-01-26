@@ -1,18 +1,19 @@
 import React from 'react';
 
 type Cardprops = {
-    background: string;
+    largeIcon: string;
     icon: string;
     title: string;
     content: string;
 }
 
-export const ServicesCard:React.FunctionComponent<Cardprops> =({background, icon, title, content}) => {
+export const ServicesCard:React.FunctionComponent<Cardprops> =({largeIcon, icon, title, content}) => {
   return (
-    <div style={{backgroundColor: 'linear-gradient(180deg, rgba(52, 58, 66, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%)'}} className='card rounded-[2rem] w-[90%] mx-aut sm:w-[30rem] md:w-[65%] lg:w-[40%] h-[320px] backdrop-blur-[2px]'>
+    <div className='card rounded-[2rem] w-[90%] mx-aut sm:w-[30rem] md:w-[65%] lg:w-[40%] h-[320px] backdrop-brightness-50 border-2 border-red-500'>
 
-          <div className='border-2 h-full'>
-                <img src={icon} alt="icon" />
+          <div className='border-2 h-full p-[50px]'>
+                <img src={icon} className='md:hidden' alt="icon" />
+                <img src={largeIcon} className="hidden" alt="icon" />
                 <h4 className='text-[#fff] tex-[1rem] md:text-[1.25rem] md:my-[1rem] style font-bold leading-normal'>{title}</h4>
                 <p className='text-[#fff] text-[0.80rem] md:text-[0.875rem] style font-normal leading-normal'>{content}</p>
             </div>
