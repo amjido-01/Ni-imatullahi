@@ -13,7 +13,7 @@ export const ServicesCard:React.FunctionComponent<Cardprops> =({largeIcon, icon,
 
           <div className='border-2 h-full p-[50px]'>
                 <img src={icon} className='md:hidden' alt="icon" />
-                <img src={largeIcon} className="hidden" alt="icon" />
+                <img src={largeIcon} className="hidden md:block" alt="icon" />
                 <h4 className='text-[#fff] tex-[1rem] md:text-[1.25rem] md:my-[1rem] style font-bold leading-normal'>{title}</h4>
                 <p className='text-[#fff] text-[0.80rem] md:text-[0.875rem] style font-normal leading-normal'>{content}</p>
             </div>

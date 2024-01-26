@@ -9,6 +9,9 @@ import proudsmlf from '@/assets/proudsmlf.svg'
 import proudrg from '@/assets/proudrg.svg'
 import proudrgsm from '@/assets/proudrgsm.svg';
 import researchlg from '@/assets/researchlg.svg'
+import visualDesignlg from '@/assets/visualDesignlg.svg'
+import testinglg from '@/assets/testinglg.svg';
+import prototypinglg from '@/assets/prototypinglg.svg'
 const cardData = [
   {id: 0,
     largeIcon: researchlg,
@@ -17,16 +20,19 @@ const cardData = [
     content: 'Conducting in-depth user research, analyzing data for actionable insights, and creating user personas and journey maps to enhance the user experience'
   },
   {id: 1,
+    largeIcon: prototypinglg,
     icon: prototyping,
     title: 'Prototyping and Wireframing',
     content: 'Creating interactive prototypes and wireframes, refining through iterative testing for user feedback, and delivering a clear roadmap to clients and development teams for the final product.'
   },
   {id: 2,
+    largeIcon: visualDesignlg,
     icon: visualDesign,
     title: 'Visual Design and Branding',
     content: 'Crafting visually appealing designs aligned with brand identity, selecting color schemes, typography, and imagery to enhance the user experience, and ensuring consistency across platforms for a seamless experience.'
   },
   {id: 3,
+    largeIcon: testinglg,
     icon: testing,
     title: 'Usability Testing and Iterative Design',
     content: 'Conducting usability testing, iteratively refining designs based on user feedback, and collaborating with stakeholders and development teams to implement design improvements.'
@@ -60,14 +66,14 @@ export const Services:React.FunctionComponent = () => {
         </div>
 
         <div className='border-red-500 border2 flex flex-col pl-5 gap-[5rem] sm:items-center lg:flex-row justify-center my-[44px] md:my-[65px] md:gap-[6rem]'>
-          <ServicesCard title={cardData[1].title} icon={cardData[1].icon} content={cardData[1].content}/>
-          <ServicesCard title={cardData[2].title} icon={cardData[2].icon} content={cardData[2].content}/>
+          <ServicesCard title={cardData[1].title} largeIcon={cardData[1].largeIcon} icon={cardData[1].icon} content={cardData[1].content}/>
+          <ServicesCard largeIcon={cardData[2].largeIcon} title={cardData[2].title} icon={cardData[2].icon} content={cardData[2].content}/>
         </div>
 
         <div className='border2 border-red-500 flex items-center justify-center my-[44px] md:my-[55px] gap-1 h-[400px]'>
 
          <div className='border2 flex  justify-center w-[95%] '>
-         <ServicesCard title={cardData[3].title} icon={cardData[3].icon} content={cardData[3].content}/>
+         <ServicesCard largeIcon={cardData[3].largeIcon} title={cardData[3].title} icon={cardData[3].icon} content={cardData[3].content}/>
          </div>
 
          <div className='border2 h-full relative'>
