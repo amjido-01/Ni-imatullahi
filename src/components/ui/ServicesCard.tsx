@@ -4,12 +4,12 @@ type Cardprops = {
     icon: string;
     title: string;
     content: string;
-    background?: string;
+    containerSize: string; 
 }
 
-export const ServicesCard:React.FunctionComponent<Cardprops> =({ icon, title, content}) => {
+export const ServicesCard:React.FunctionComponent<Cardprops> =({ icon, title, content, containerSize }) => {
   return (
-    <div style={{boxShadow: '5px 5px 30px 0px rgba(0, 0, 0, 0.25)'}} className={`card rounded-[2rem] w-[90%] mx-aut sm:w-[30rem] md:w-[65%] lg:w-[40%] border-[2px] border-solid`}>
+    <div style={{boxShadow: '5px 5px 30px 0px rgba(0, 0, 0, 0.25)'}} className={`card rounded-[2rem] ${containerSize} mx-aut sm:w-[30rem] md:w-[65%] lg:w-[40%] border-[2px] border-solid`}>
 
           <div className='h-full p-[40px] md:p-[50px] colored'>
                 <img src={icon} className='md:hidden' alt="icon" />

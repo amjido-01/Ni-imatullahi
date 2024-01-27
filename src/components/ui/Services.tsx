@@ -40,33 +40,33 @@ export const Services:React.FunctionComponent = () => {
   return (
     <div className='mt-[8rem] border2 flex justify-center service'>
 
-      <div className='border2 border-pink-400 w-[100%] md:w-[75%] mxauto'>
+      <div className='border2 w-[100%] md:w-[75%] mxauto'>
 
-       <div className='border2 border-red-500 flex items-center justify-center mt-[44px] mb-4 md:my-[55px] h-[400px]'>
+       <div className='border2 flex items-center justify-center mt-[44px] mb-4 md:my-[55px] h-[400px]'>
         <div className='h-full'>
         <img className='block mt-16 sm:hidden' src={proudsmlf} alt="text" />
         <img className='hidden sm:block mt-10' src={proud} alt="text" />
         </div>
 
          <div className='border2 flex sm:justify-center w-[95%] pr5 sm:pr-0'>
-         <ServicesCard  title={cardData[0].title}  icon={cardData[0].icon} content={cardData[0].content}/>
+         <ServicesCard containerSize='w-[95%]'  title={cardData[0].title}  icon={cardData[0].icon} content={cardData[0].content}/>
          </div>
         </div>
 
-        <div className='border-red-500 border2 flex flex-col pl-5 gap-[5rem] sm:items-center lg:flex-row justify-center mb-[44px] md:my-[8rem] md:gap-[10rem]'>
-          <ServicesCard title={cardData[1].title}  icon={cardData[1].icon} content={cardData[1].content}/>
-          <ServicesCard  title={cardData[2].title} icon={cardData[2].icon} content={cardData[2].content}/>
+        <div className='border2 flex flex-col m-l5 gap-[5rem] items-center lg:flex-row justify-center mb-[44px] md:my-[8rem] md:gap-[10rem]'>
+          <ServicesCard containerSize='w-[90%]' title={cardData[1].title}  icon={cardData[1].icon} content={cardData[1].content}/>
+          <ServicesCard containerSize='w-[90%]' title={cardData[2].title} icon={cardData[2].icon} content={cardData[2].content}/>
         </div>
 
-        <div className='border2 border-red-500 flex items-center justify-center my-[44px] md:my-4 gap-1 h-[400px]'>
+        <div className='border2 flex items-center justify-center my-[44px] md:my-4 gap-1 h-[400px]'>
 
-         <div className='border2 flex  justify-center w-[95%] '>
-         <ServicesCard  title={cardData[3].title} icon={cardData[3].icon} content={cardData[3].content}/>
+         <div className='border2 flex justify-end sm:justify-center w-[95%] '>
+         <ServicesCard containerSize='w-[95%]' title={cardData[3].title} icon={cardData[3].icon} content={cardData[3].content}/>
          </div>
 
          <div className='border2 h-full relative'>
          <img className='block mt-[220px] sm:hidden' src={proudrgsm} alt="text" />
-      <img className='hidden mt-[125px] sm:block' src={proudrg} alt="text" />
+         <img className='hidden mt-[125px] sm:block' src={proudrg} alt="text" />
           </div>
         </div>
 
