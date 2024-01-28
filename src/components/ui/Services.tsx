@@ -8,28 +8,32 @@ import proud from '@/assets/proud.svg'
 import proudsmlf from '@/assets/proudsmlf.svg'
 import proudrg from '@/assets/proudrg.svg'
 import proudrgsm from '@/assets/proudrgsm.svg';
-// import researchlg from '@/assets/researchlg.svg'
-// import visualDesignlg from '@/assets/visualDesignlg.svg'
-// import testinglg from '@/assets/testinglg.svg';
-// import prototypinglg from '@/assets/prototypinglg.svg'
+import researchlg from '@/assets/researchlg.svg'
+import visualDesignlg from '@/assets/visualDesignlg.svg'
+import testinglg from '@/assets/testinglg.svg';
+import prototypinglg from '@/assets/prototypinglg.svg'
 const cardData = [
   {id: 0,
     icon: research,
+    desktopIcon: researchlg,
     title: 'User Research and Analysis',
     content: 'Conducting in-depth user research, analyzing data for actionable insights, and creating user personas and journey maps to enhance the user experience'
   },
   {id: 1,
     icon: prototyping,
+    desktopIcon: prototypinglg,
     title: 'Prototyping and Wireframing',
     content: 'Creating interactive prototypes and wireframes, refining through iterative testing for user feedback, and delivering a clear roadmap to clients and development teams for the final product.'
   },
   {id: 2,
     icon: visualDesign,
+    desktopIcon: visualDesignlg,
     title: 'Visual Design and Branding',
     content: 'Crafting visually appealing designs aligned with brand identity, selecting color schemes, typography, and imagery to enhance the user experience, and ensuring consistency across platforms for a seamless experience.'
   },
   {id: 3,
     icon: testing,
+    desktopIcon: testinglg,
     title: 'Usability Testing and Iterative Design',
     content: 'Conducting usability testing, iteratively refining designs based on user feedback, and collaborating with stakeholders and development teams to implement design improvements.'
   },
@@ -49,19 +53,27 @@ export const Services:React.FunctionComponent = () => {
         </div>
 
          <div className='border2 flex sm:justify-center w-[95%] pr5 sm:pr-0'>
-         <ServicesCard bg='linear-gradient(160deg, #FFFFFF00, #30958D)' containerSize='w-[95%]'  title={cardData[0].title}  icon={cardData[0].icon} content={cardData[0].content}/>
+         <ServicesCard 
+         bg='linear-gradient(160deg, #FFFFFF00, #30958D)' 
+         containerSize='w-[95%]'  title={cardData[0].title}  icon={cardData[0].icon} desktopIcon={cardData[0].desktopIcon} content={cardData[0].content}/>
          </div>
         </div>
 
         <div className='border2 flex flex-col m-l5 gap-[5rem] items-center lg:flex-row justify-center mb-[44px] md:my-[8rem] md:gap-[10rem]'>
-          <ServicesCard bg='linear-gradient(160deg, #FFFFFF00, #8B1D13)' containerSize='w-[90%]' title={cardData[1].title}  icon={cardData[1].icon} content={cardData[1].content}/>
-          <ServicesCard bg="linear-gradient(160deg, #FFFFFF00, #FFC700)" containerSize='w-[90%]' title={cardData[2].title} icon={cardData[2].icon} content={cardData[2].content}/>
+          <ServicesCard 
+          bg='linear-gradient(160deg, #FFFFFF00, #8B1D13)' 
+          containerSize='w-[90%]' title={cardData[1].title}  icon={cardData[1].icon} desktopIcon={cardData[1].desktopIcon} content={cardData[1].content}/>
+          <ServicesCard 
+          bg="linear-gradient(160deg, #FFFFFF00, #FFC700)" 
+          containerSize='w-[90%]' title={cardData[2].title} icon={cardData[2].icon} desktopIcon={cardData[2].desktopIcon} content={cardData[2].content}/>
         </div>
 
         <div className='border2 flex items-center justify-center my-[44px] md:my-4 gap-1 h-[400px]'>
 
          <div className='border2 flex justify-end sm:justify-center w-[95%] '>
-         <ServicesCard bg="linear-gradient(160deg, #FFFFFF00, #056BC7)" containerSize='w-[95%]' title={cardData[3].title} icon={cardData[3].icon} content={cardData[3].content}/>
+         <ServicesCard 
+         bg="linear-gradient(160deg, #FFFFFF00, #056BC7)" 
+         containerSize='w-[95%]' title={cardData[3].title} icon={cardData[3].icon} desktopIcon={cardData[3].desktopIcon} content={cardData[3].content}/>
          </div>
 
          <div className='border2 h-full relative'>
