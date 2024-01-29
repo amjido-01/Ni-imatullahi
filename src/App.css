@@ -78,7 +78,7 @@ body {
 }
 
 .hero {
-  background-image: url('./assets/BG.png');
+  background-image: url('./assets/BG.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -133,7 +133,7 @@ body {
 }
 
 .service {
-  background: url('./assets/servicesm.svg');
+  background: url('./assets/servicebgsm.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -179,14 +179,14 @@ footer {
 
 @media screen and (min-width: 780px) {
   .hero {
-    background: url("./assets/BG.png"), #010101;
+    background: url("./assets/BG.svg"), #010101;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 125vh;
   }
   .service {
-    background: url('./assets/servicelg.svg');
+    background: url('./assets/serviceBG.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
