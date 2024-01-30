@@ -21,13 +21,16 @@ const logos2 = [
   slack,
    stripe,
 ]
+
 export const Slides: React.FunctionComponent = () => {
   return (
-    <div className='mt-[2.94rem] md:mt-[6.88rem] mb-24'>
-       <div className='mt-[2.68rem] md:mt-[4.5rem] flex flex-col gap-[2.61rem] md:gap-[4rem] border-2 md:w-[80%] mx-auto'>
+    <div className='mt-[146px] md:mt-[209px] mb-24'>
+         <hr className="white-hr w-[90%] md:w-[80%] mx-auto mb-[44px] md:mb-[80px]" />
+       <div className='flex flex-col gap-[1rem] md:gap-[2rem] border2 md:w-[80%] mx-auto'>
          <Organizations direction='right' logos={logos}/>
          <Organizations direction='left' logos={logos2}/>
        </div>
+       <hr className="white-hr w-[90%] md:w-[80%] mx-auto mt-[44px] md:mt-[80px]" />
     </div>
   )
 }

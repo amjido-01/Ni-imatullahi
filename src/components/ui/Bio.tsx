@@ -38,7 +38,7 @@ export const Bio: React.FunctionComponent = () => {
     }, [controls])
 
 return (
-  <div className='h-[120vh] md:h-[300vh] relative border2 border-red-500 mt-[7.31rem] md:mt-[13.69rem]'>
+  <div className='h-[120vh] md:h-[200vh] relative border2 border-red-500 mt-[7.31rem] md:mt-[13.69rem]'>
       
       <div className='sticky overflow-hidden top-0 hscreen border2 w-[90%] md:w-[80%] mx-auto'>
       <div>

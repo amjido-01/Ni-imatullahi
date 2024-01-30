@@ -11,9 +11,9 @@ export const Organizations:React.FunctionComponent<OrganizationsProps> = ({direc
   return (
     <div>
       <div>
-        <Marquee className='border-2 gap-12' direction={direction} pauseOnHover={true} speed={40}>
+        <Marquee className='border2 gap-12' direction={direction} pauseOnHover={true} speed={40}>
         {logos.map((logo,index) => (
-                <Institude key={index} image={logo} />
+            <Institude key={index} image={logo} />
             ))}
         </Marquee>
       </div>
