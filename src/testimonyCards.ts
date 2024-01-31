@@ -1,4 +1,4 @@
-import gdsc from "@/assets/gdsc.png"
+import ala from "@/assets/ala.png"
 /**
  * Interface for testimony data props.
  * Defines the shape of objects representing testimony data.
@@ -18,7 +18,7 @@ export const testimonyCards: dataProps[] = [
     id: 1,
     title: 'Title 1',
     name: 'niimatullahi',
-    pic: gdsc,
+    pic: ala,
     content: 'lorem ',
     alt: 'testimony',
     role: 'Developer'
@@ -27,7 +27,7 @@ export const testimonyCards: dataProps[] = [
      id: 2,
     title: "Title 2",
     name: "Muhammad Niimatullahi",
-    pic: gdsc,
+    pic: ala,
     content: "“Lorem ipsum dolor sit amet consectetur. Fermentum convallis semper integer adipiscing adipiscing nibh eget. Posuere neque semper gravida massa cursus turpis vulputate. Mi maecenas.”",
      alt: 'testimony',
      role: 'product designer'
@@ -36,7 +36,7 @@ export const testimonyCards: dataProps[] = [
      id: 3,
     title: "Title 3",
     name: "Bukhari Auwal",
-    pic: gdsc,
+    pic: ala,
     content: "“Lorem ipsum dolor sit amet consectetur. Fermentum convallis semper integer adipiscing adipiscing nibh eget. Posuere neque semper gravida massa cursus turpis vulputate. Mi maecenas.”",
      alt: 'testimony',
      role: 'software engineer'
@@ -45,7 +45,7 @@ export const testimonyCards: dataProps[] = [
      id: 4,
     title: "Title 4",
     name: "Suraj wizard",
-    pic: gdsc,
+    pic: ala,
     content: "“Lorem ipsum dolor sit amet consectetur. Fermentum convallis semper integer adipiscing adipiscing nibh eget. Posuere neque semper gravida massa cursus turpis vulputate. Mi maecenas.”",
      alt: 'testimony',
      role: 'software engineer'
@@ -54,7 +54,7 @@ export const testimonyCards: dataProps[] = [
      id: 5,
     title: "Title 4",
     name: "Muhammad Niimatullahi",
-    pic: gdsc,
+    pic: ala,
     content: "“Lorem ipsum dolor sit amet consectetur. Fermentum convallis semper integer adipiscing adipiscing nibh eget. Posuere neque semper gravida massa cursus turpis vulputate. Mi maecenas.”",
      alt: 'testimony',
      role: 'blog writer'
