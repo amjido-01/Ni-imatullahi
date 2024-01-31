@@ -4,6 +4,7 @@ import { Footer } from '@/components/ui/Footer';
 import { Bio } from '@/components/ui/Bio';;
 import { Services } from '@/components/ui/Services';
 import { Slides } from '@/components/ui/Slide';
+import { Testimony } from '@/components/ui/Testimony';
 export const Home: React.FunctionComponent = () => {
   return (
     <div className='home'>
@@ -11,6 +12,7 @@ export const Home: React.FunctionComponent = () => {
       <Bio />
       <Services />
       <Slides />
+      <Testimony />
       <Footer />
     </div>
   )
