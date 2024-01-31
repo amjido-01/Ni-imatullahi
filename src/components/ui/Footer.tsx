@@ -28,7 +28,7 @@ return (
         <VisitArrow animateX={[-5, 8, -5]} className='md:mt-1 w-[1.9rem] md:w-[1.8rem] md:h-[1.375rem] stroke-[#010101]'/>
     </Button>
                 </div>
-            <div className='flex gap-[0.5rem] sm:gap-[1rem] md:gap-[2rem]'>
+            <div className='flex min-w-0 gap-[0.5rem] sm:gap-[1rem] md:gap-[2rem]'>
                 <img src={dribble} alt="dribble icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />
                 <img src={x} alt="twitter x icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />
                 <img src={facebook} alt="facebook icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />

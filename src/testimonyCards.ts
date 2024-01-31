@@ -19,7 +19,7 @@ export const testimonyCards: dataProps[] = [
     title: 'Title 1',
     name: 'niimatullahi',
     pic: ala,
-    content: 'lorem ',
+    content: '“Lorem ipsum dolor sit amet consectetur. Fermentum convallis semper integer adipiscing adipiscing nibh eget. Posuere neque semper gravida massa cursus turpis vulputate. Mi maecenas.”',
     alt: 'testimony',
     role: 'Developer'
   },
@@ -40,23 +40,5 @@ export const testimonyCards: dataProps[] = [
     content: "“Lorem ipsum dolor sit amet consectetur. Fermentum convallis semper integer adipiscing adipiscing nibh eget. Posuere neque semper gravida massa cursus turpis vulputate. Mi maecenas.”",
      alt: 'testimony',
      role: 'software engineer'
-  },
-  {
-     id: 4,
-    title: "Title 4",
-    name: "Suraj wizard",
-    pic: ala,
-    content: "“Lorem ipsum dolor sit amet consectetur. Fermentum convallis semper integer adipiscing adipiscing nibh eget. Posuere neque semper gravida massa cursus turpis vulputate. Mi maecenas.”",
-     alt: 'testimony',
-     role: 'software engineer'
-  },
-  {
-     id: 5,
-    title: "Title 4",
-    name: "Muhammad Niimatullahi",
-    pic: ala,
-    content: "“Lorem ipsum dolor sit amet consectetur. Fermentum convallis semper integer adipiscing adipiscing nibh eget. Posuere neque semper gravida massa cursus turpis vulputate. Mi maecenas.”",
-     alt: 'testimony',
-     role: 'blog writer'
-  },
+  }
 ];

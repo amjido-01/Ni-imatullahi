@@ -24,7 +24,7 @@ const logos2 = [
 
 export const Slides: React.FunctionComponent = () => {
   return (
-    <div className='mt-[146px] border2 md:mt-[209px] mb-24'>
+    <div className='mt-[146px] border2 md:mt-[209px]'>
       <h3 className='mb-[10px] md:mb-[18px] border2  w-[80%]  mx-auto text-white'>Work experiences</h3>
          <hr className="white-hr w-[90%] md:w-[80%] mx-auto mb-[44px] md:mb-[80px]" />
        <div className='flex flex-col gap-[1rem] md:gap-[2rem] border2 md:w-[80%] mx-auto'>
