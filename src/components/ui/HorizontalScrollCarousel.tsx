@@ -31,11 +31,11 @@ export const HorizontalScrollCarousel: React.FunctionComponent<CarouselProps> = 
   return (
     <main
       ref={targetRef}
-      className="testimon relative h-[150vh] md:h-[200vh] border-2 border-red-500"
+      className="testimon relative h-[150vh] md:h-[200vh] border-red-500"
     >
       {/** The sticky container element. */}
-      <div className="sticky top-0 flex items-center border-2 h-screen justify-between overflow-hidden">
-        <motion.div style={{ x }} className="flex gap[21px] md:gap-[5px]">
+      <div className="sticky top-0 flex items-center h-screen justify-between overflow-hidden">
+        <motion.div style={{ x }} className="flex gap-[21px] md:gap-8">
           {/* Render the cards in a carousel component. */}
           {cards.map((card) => (
             <Card card={card} key={card.id} />

@@ -16,7 +16,7 @@ export const Card: React.FunctionComponent<CardProps> = ({card}) => {
   return (
     <div
     key={card.id}
-    className=" w-[711px] h-[222px] md:h-[450px] md:w-[700px] overflow-hidden border-2"
+    className=" w-[711px] h-[322px] md:h-[450px] md:w-[700px] overflow-hidden border-2"
   >
     <div className="">
       <p className=" font-black uppercase text-white">
