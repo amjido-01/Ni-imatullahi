@@ -4,8 +4,8 @@ import { Footer } from '@/components/ui/Footer';
 import { Bio } from '@/components/ui/Bio';;
 import { Services } from '@/components/ui/Services';
 import { Slides } from '@/components/ui/Slide';
-import { Testimony } from '@/components/ui/Testimony';
-import { VideoComponent } from '@/components/ui/VideoComponent';
+// import { Testimony } from '@/components/ui/Testimony';
+// import { VideoComponent } from '@/components/ui/VideoComponent';
 // import Example from '@/components/ui/HorizontalScrollCarousel2';
 export const Home: React.FunctionComponent = () => {
   return (
@@ -14,9 +14,9 @@ export const Home: React.FunctionComponent = () => {
       <Bio />
       <Services />
       <Slides />
-      <Testimony />
+      {/* <Testimony /> */}
       {/* <Example /> */}
-      <VideoComponent />
+      {/* <VideoComponent /> */}
       <Footer />
     </div>
   )
