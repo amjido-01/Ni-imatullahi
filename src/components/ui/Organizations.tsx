@@ -18,17 +18,17 @@ export const Organizations:React.FunctionComponent = () => {
        <h3 className='text-[#AAAAAA] w-[90%] md:w-full  mx-auto text-[0.625rem] md:text-[1rem]'>Work experiences</h3>
         <hr className="white-hr w-[90%] md:w-full mx-auto mb-[44px] md:mb-[80px]" />
         <div className='border-2 w-full md:w-[80%] mx-auto flex flex-col gap-[24px] md:gap-[54px]'>
-            <div className='flex items-center justify-center gap-[24px] md:gap-[96px]'>
+            <div className='flex items-center overflow-x-auto justify-center gap-[24px] md:gap-[96px]'>
                 <div>
-                <img src={gdscsm} className='block border-2 md:hidden' alt='org'/>
+                <img src={gdscsm} className='block md:hidden' alt='org'/>
                 <img src={gdsc} className='hidden md:block' alt="org"/>
                 </div>
                 <div>
-                <img src={stemsm} className='block border-2 md:hidden' alt='org'/>
+                <img src={stemsm} className='block md:hidden' alt='org'/>
                 <img src={stem} className='hidden md:block' alt="org"/>
                 </div>
                 <div>
-                <img src={startbenchsm} className='block border-2 md:hidden' alt='org'/>
+                <img src={startbenchsm} className='block md:hidden' alt='org'/>
                 <img src={startbench} className='hidden md:block' alt="org"/>
                 </div>
             </div>
