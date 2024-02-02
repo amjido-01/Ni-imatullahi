@@ -66,6 +66,7 @@ export const Services:React.FunctionComponent = () => {
           // bg='linear-gradient(160deg, #FFFFFF00, #8B1D13)' 
           containerSize='w-[90%]' title={cardData[1].title}  icon={cardData[1].icon} desktopIcon={cardData[1].desktopIcon} content={cardData[1].content}/>
           <ServicesCard 
+          borderClr='#CC9F00'
           // bg="linear-gradient(160deg, #FFFFFF00, #FFC700)" 
           containerSize='w-[90%]' title={cardData[2].title} icon={cardData[2].icon} desktopIcon={cardData[2].desktopIcon} content={cardData[2].content}/>
         </div>
@@ -74,6 +75,7 @@ export const Services:React.FunctionComponent = () => {
 
          <div className='border2 flex justify-end sm:justify-center w-[95%] '>
          <ServicesCard 
+         borderClr='#056BC7'
         //  bg="linear-gradient(160deg, #FFFFFF00, #056BC7)" 
          containerSize='w-[95%]' title={cardData[3].title} icon={cardData[3].icon} desktopIcon={cardData[3].desktopIcon} content={cardData[3].content}/>
          </div>

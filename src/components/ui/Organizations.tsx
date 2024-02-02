@@ -1,22 +1,31 @@
 import React from 'react';
-import Marquee from 'react-fast-marquee';
-import { Institude } from './Institude';
+import gdsc from '@/assets/gdsc.png';
+import gdscsm from '@/assets/gdscsm.png'
 
-type OrganizationsProps = {
-  direction: "left" | "right" | "up" | "down";
-  logos: string[];
-}
-
-export const Organizations:React.FunctionComponent<OrganizationsProps> = ({direction, logos}) => {
+export const Organizations:React.FunctionComponent = () => {
   return (
-    <div>
-      <div>
-        <Marquee className='border2 gap-12' direction={direction} pauseOnHover={true} speed={40}>
-        {logos.map((logo,index) => (
-            <Institude key={index} image={logo} />
-            ))}
-        </Marquee>
-      </div>
+    <div className='border-2 mt-[146px] md:mt-[209px]'>
+       <div className='border-2 w-full md:w-[80%] mx-auto'>
+       <h3 className='text-[#AAAAAA]  mx-auto text-[0.625rem] md:text-[1rem]'>Work experiences</h3>
+        <hr className="white-hr  mx-auto mb-[44px] md:mb-[80px]" />
+        <div className='border-2 w-full md:w-[80%] mx-auto'>
+            <div className='flex gap-[24px] md:gap-[96px]'>
+                <div>
+                <img src={gdscsm} className='block border-2 md:hidden' alt='org'/>
+                <img src={gdsc} className='hidden md:block' alt="org"/>
+                </div>
+                <div>
+                <img src={gdscsm} className='block border-2 md:hidden' alt='org'/>
+                <img src={gdsc} className='hidden md:block' alt="org"/>
+                </div>
+                <div>
+                <img src={gdscsm} className='block border-2 md:hidden' alt='org'/>
+                <img src={gdsc} className='hidden md:block' alt="org"/>
+                </div>
+            </div>
+            <div></div>
+        </div>
+       </div>
     </div>
   )
 }
