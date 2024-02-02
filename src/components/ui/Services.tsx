@@ -54,6 +54,7 @@ export const Services:React.FunctionComponent = () => {
 
          <div className='border2 flex sm:justify-center w-[95%] pr5 sm:pr-0'>
          <ServicesCard 
+         borderClr='#19B3A7'
         //  bg='linear-gradient(160deg, #FFFFFF00, #30958D)' 
          containerSize='w-[95%]'  title={cardData[0].title}  icon={cardData[0].icon} desktopIcon={cardData[0].desktopIcon} content={cardData[0].content}/>
          </div>
@@ -61,6 +62,7 @@ export const Services:React.FunctionComponent = () => {
 
         <div className='border2 flex flex-col m-l5 gap-[5rem] items-center lg:flex-row justify-center mb-[44px] md:my-[8rem] md:gap-[10rem]'>
           <ServicesCard 
+          borderClr='#C11A0B'
           // bg='linear-gradient(160deg, #FFFFFF00, #8B1D13)' 
           containerSize='w-[90%]' title={cardData[1].title}  icon={cardData[1].icon} desktopIcon={cardData[1].desktopIcon} content={cardData[1].content}/>
           <ServicesCard 
