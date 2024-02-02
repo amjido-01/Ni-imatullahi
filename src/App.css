@@ -109,6 +109,10 @@ body {
   border-radius: 3.125rem;
 }
 
+.dd img {
+  /* object-fit: cover; */
+  object-fit: scale-down;
+}
 .text-stroke {
   /* -webkit-text-stroke: 1px white;
   font-family: sans-serif; */
