@@ -9,6 +9,7 @@
 
 body {
   font-family: "Geist Variable";
+  overflow-x: hidden;
 }
 
 .montserrat {
@@ -152,6 +153,24 @@ body {
   -webkit-backdrop-filter: blur(5px) !important;
   backdrop-filter: blur(5px) !important;
 
+}
+
+.parent {
+  /* max-width: 80%; */
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.child {
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+
+  border: 3px solid red;
 }
 
 /* footer {
