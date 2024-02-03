@@ -1,5 +1,5 @@
 import React from "react";
-import { testimonyCards } from "@/testimonyCards"
+// import { testimonyCards } from "@/testimonyCards"
 import Marquee from "react-fast-marquee";
 import { Card } from "./Card";
 export const Testimony: React.FunctionComponent = () => {
