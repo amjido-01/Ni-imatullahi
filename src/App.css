@@ -173,7 +173,6 @@ body {
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
-
   border: 3px solid red;
 }
 

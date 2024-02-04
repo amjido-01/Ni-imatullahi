@@ -17,7 +17,7 @@ export const Testimony: React.FunctionComponent = () => {
       <h2 className="text-[22.61px] leading-[27.13px] text-[#F4F4F4] md:text-[40px] md:leading-[48px] text-center">Testimonies</h2>
       {/* Heading for the testimonials section. */}
       <div className="border-2 h-[80%] child flex flex-col justify-center">
-      <Marquee pauseOnHover={true}>
+      <Marquee pauseOnHover={true} speed={30}>
         <Testimonial />
         <Testimonial />
       </Marquee>
