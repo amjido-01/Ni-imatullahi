@@ -7,7 +7,7 @@ import {
 
 export const Testimonial = () => {
   return (
-    <Card className=' rounded-t-[40px]'>
+    <Card className=' rounded-t-[17px] md:rounded-t-[40px]'>
     <CardContent className='flex gap-[19px] md:gap-[14px] h-full'>
       <div className='mt-[20px] md:mt-[45px]'>
         <img className='w-[70px] h-[70px] md:w-[161px] md:h-[161px]' src={ala} alt="" />
