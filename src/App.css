@@ -163,6 +163,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: url('./assets/testimotialBg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .child {
