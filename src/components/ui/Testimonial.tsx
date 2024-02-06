@@ -15,9 +15,9 @@ export const Testimonial = () => {
       <div className='flex itemscenter h-full '>
         <div className='mt-[43px] md:mt-[100px]'>
         <div>
-            <h3 className='text-[10.53px] font-bold leading-[12.63px] md:text-[24px] md:leading-[26.22px] capitalize'>Abubakar Muhammad</h3>
-            
-            <p className='text-[#AAAAAA] mt-[2px] md:mt-[4px] text-[11px] font-bold leading-[9.6px] md:text-[12.75px] md:leading-[16.8px]'>Software Engineer</p>
+            <h3 className='text-[11px] font-bold leading-[12.63px] md:text-[22px] md:leading-[26.22px] capitalize'>Abubakar Muhammad</h3>
+
+            <p className='text-[#AAAAAA] mt-[2px] md:mt-[4px] text-[8px] font-normal md:font-bold leading-[9.6px] md:text-[12.75px] md:leading-[16.8px]'>Software Engineer</p>
         </div>
         <p className='md:mt-[36px] mt-[14px] text-[14px] md:text-[29.14px] w-[162px] md:w-[368px] font-semibold md:font-bold leading-[120%]'>He is an  asshole but a very good designer.</p>
         </div>

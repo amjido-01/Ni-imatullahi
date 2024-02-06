@@ -16,7 +16,7 @@ export const Testimony: React.FunctionComponent = () => {
     <div className="border-green-500 parent border-2 w-[90%] md:w-[95%] h-[369px] md:h-[862px] mt-[159px] md:mt-[263px]">
       <h2 className="text-[22.61px] leading-[27.13px] text-[#F4F4F4] md:text-[40px] md:leading-[48px] text-center">Testimonies</h2>
       {/* Heading for the testimonials section. */}
-      <div className="border-2 h-[70%] child flex flex-col justify-center">
+      <div className="border-2 h-[80%] md:h-[70%] child flex flex-col justify-center">
       <Marquee pauseOnHover={true} speed={30}>
         <Testimonial />
         <Testimonial />
