@@ -2,7 +2,8 @@ import React from 'react';
 import {
     Card,
     CardContent,
-  } from "@/components/ui/Card"
+  } from "@/components/ui/Card";
+  import comma from '@/assets/comma.png'
 
   type testimonialprops = {
     img: string,
@@ -15,7 +16,8 @@ export const Testimonial:React.FunctionComponent<testimonialprops> = ({img, name
   return (
     <Card className='rounded-t-[17px] md:rounded-t-[36px] rounded-bl-[36px]'>
     <CardContent className='flex gap-[15px] md:gap-[44px] h-full'>
-      <div className='mt-[20px] md:mt-[45px]'>
+      <div className='absolute border-2 h-32 w-fit left-0 top-0 bg-white banner'></div>
+      <div className='mt-[20px] md:mt-[45px] border-2'>
         <img className='w-[70px] h-[70px] md:w-[146px] md:h-[146px]' src={img} alt="" />
       </div>
       <div className='flex itemscenter h-full '>
@@ -27,6 +29,7 @@ export const Testimonial:React.FunctionComponent<testimonialprops> = ({img, name
         </div>
         <p className='md:mt-[36px] mt-[14px] text-[14px] md:text-[29.14px] w-[162px] md:w-[368px] font-semibold md:font-bold leading-[120%]'>{quote}</p>
         </div>
+        <img className='w-[38.74px] h-[33.71px] absolute right-5 object-cover bottom-5 md:w-[76.09px] md:h-[66.21px]' src={comma} alt="" />
       </div>
     </CardContent>
   </Card>
