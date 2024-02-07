@@ -160,13 +160,6 @@ body {
 }
 
 .parent {
-  /* max-width: 80%; */
-  margin: 0 auto;
-  padding: 1rem;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background: url('./assets/testimotialBg.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -174,10 +167,7 @@ body {
 }
 
 .child {
-  width: 100vw;
-  position: relative;
   left: calc(-50vw + 50%);
-  border: 3px solid red;
 }
 
 #vid {

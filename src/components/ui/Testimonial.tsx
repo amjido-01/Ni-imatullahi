@@ -16,8 +16,8 @@ export const Testimonial:React.FunctionComponent<testimonialprops> = ({img, name
   return (
     <Card className='rounded-t-[17px] md:rounded-t-[36px] rounded-bl-[36px]'>
     <CardContent className='flex gap-[15px] md:gap-[44px] h-full'>
-      <div className='absolute border-2 h-32 w-fit left-0 top-0 bg-white banner'></div>
-      <div className='mt-[20px] md:mt-[45px] border-2'>
+      {/* <div className='absolute border-2 h-32 w-fit left-0 top-0 bg-white banner'></div> */}
+      <div className='mt-[20px] md:mt-[45px]'>
         <img className='w-[70px] h-[70px] md:w-[146px] md:h-[146px]' src={img} alt="" />
       </div>
       <div className='flex itemscenter h-full '>
