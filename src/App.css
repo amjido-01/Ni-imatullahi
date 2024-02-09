@@ -172,14 +172,18 @@ body {
 
 #vid {
   object-fit: initial;
-  height: 230px;
+  height: 260px;
   position: relative;
 }
 #vid::-webkit-media-controls {
   position: relative;
 }
+video::-webkit-media-controls {
+  display: none !important;
+}
 
 #vid::-webkit-media-controls-play-button {
+  visibility: hidden;
   border: 2px solid greenyellow !important;
   background-color: aqua;
   position: absolute;
