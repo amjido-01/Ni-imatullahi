@@ -243,7 +243,10 @@ body {
 }
 
 
+.last {
+  background: linear-gradient(107.64deg, #11998E 0%, #38EF7D 100%);
 
+}
 
 
 .footer-hr {

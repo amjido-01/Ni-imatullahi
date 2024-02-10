@@ -9,6 +9,7 @@ import { Grid } from '@/components/ui/Grid';
 // import { VideoComponent } from '@/components/ui/VideoComponent';
 // import Example from '@/components/ui/HorizontalScrollCarousel2';
 import { Organizations } from '@/components/ui/Organizations';
+import { Last } from '@/components/ui/Last';
 export const Home: React.FunctionComponent = () => {
   return (
     <div className='home'>
@@ -19,6 +20,7 @@ export const Home: React.FunctionComponent = () => {
       <Testimony />
       <VideoPlayer />
       <Grid />
+      <Last />
       {/* <Example /> */}
       {/* <VideoComponent /> */}
 

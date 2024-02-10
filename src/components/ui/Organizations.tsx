@@ -32,26 +32,31 @@ export const Organizations:React.FunctionComponent = () => {
                 </div>
             </div>
 
-         <div className='mt-[24px] md:mt-[52px] flex justify-between md:gap-[52px] justifycenter items-center justifycenter overflow-x-auto gap-4'>
-                <div>
-                {/* <img src={gdscsm} className='block border-2 md:hidden' alt='org'/> */}
+         <div className='mt-[24px] md:mt-[52px] flex flex-col md:flex-row border-2 justify-center mdjustify-between mdgap-[52px] justifycenter items-center justifycenter overflow-x-auto gap-4'>
+
+              <div className='flex gap-8 md:gap20 border-2 w-full justify-center md:justify-start'>
+              <div>
                 <img src={airbnb} className='' alt="org"/>
                 </div>
+
                 <div>
-                {/* <img src={gdscsm} className='block border-2 md:hidden' alt='org'/> */}
                 <img src={amazon} className='w[65.63px] h[28.64px]' alt="org"/>
                 </div>
+
                 <div>
-                {/* <img src={teslasm} className='block md:hidden' alt='org'/> */}
                 <img src={tesla} className='' alt="org"/>
                 </div>
-                <div>
-                {/* <img src={gdscsm} className='block border-2 md:hidden' alt='org'/> */}
+              </div>
+
+                <div className='flex gap-8'>
+                  
+                <div className=''>
                 <img src={slack} className='' alt="org"/>
                 </div>
+
                 <div>
-                {/* <img src={gdscsm} className='block border-2 md:hidden' alt='org'/> */}
                 <img src={stripe} className='' alt="org"/>
+                </div>
                 </div>
             </div>
        </div>
