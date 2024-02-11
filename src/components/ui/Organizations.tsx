@@ -10,6 +10,11 @@ import startbenchsm from '@/assets/startbenchsm.png';
 import tesla from '@/assets/tesla.png';
 import amazon from '@/assets/amazon.png'
 import airbnb from '@/assets/airbnb.png';
+import airsm from "@/assets/airsm.png"
+import amazonsm from '@/assets/amazonsm.png'
+import slacksm from '@/assets/slacksm.png'
+import teslasm from '@/assets/teslasm.png'
+import stripsm from '@/assets/stripsm.png'
 
 export const Organizations:React.FunctionComponent = () => {
   return (
@@ -32,27 +37,27 @@ export const Organizations:React.FunctionComponent = () => {
                 </div>
             </div>
 
-         <div className='w-[100%] md:w-full justify-center mx-auto mt-[24px] md:mt-[52px] flex flex-wrap border-2 justifybetween md:gap-[52px] justifycenter items-center justifycenter overflow-x-auto gap-[24px]'>
+         <div className='w-[80%] md:w-full justify-center mx-auto mt-[24px] md:mt-[52px] flex flex-wrap justifybetween md:gap-[52px] justifycenter items-center justifycenter overflow-x-auto gap-[24px]'>
                 <div>
-                {/* <img src={gdscsm} className='block border-2 md:hidden' alt='org'/> */}
-                <img src={airbnb} className='' alt="org"/>
+                <img src={airsm} className='block md:hidden' alt='org'/>
+                <img src={airbnb} className='hidden md:block' alt="org"/>
                 </div>
                 <div>
-                {/* <img src={gdscsm} className='block border-2 md:hidden' alt='org'/> */}
-                <img src={slack} className='' alt="org"/>
+                <img src={slacksm} className='block md:hidden' alt='org'/>
+                <img src={slack} className='hidden md:block' alt="org"/>
                 </div>
                 <div>
-                {/* <img src={gdscsm} className='block border-2 md:hidden' alt='org'/> */}
-                <img src={amazon} className='w[65.63px] h[28.64px]' alt="org"/>
+                <img src={amazonsm} className='block md:hidden' alt='org'/>
+                <img src={amazon} className='hidden md:block w[65.63px] h[28.64px]' alt="org"/>
                 </div>
                 <div>
-                {/* <img src={teslasm} className='block md:hidden' alt='org'/> */}
-                <img src={tesla} className='' alt="org"/>
+                <img src={teslasm} className='block md:hidden' alt='org'/>
+                <img src={tesla} className='hidden md:block' alt="org"/>
                 </div>
               
                 <div>
-                {/* <img src={gdscsm} className='block border-2 md:hidden' alt='org'/> */}
-                <img src={stripe} className='' alt="org"/>
+                <img src={stripsm} className='block md:hidden' alt='org'/>
+                <img src={stripe} className='hidden md:block' alt="org"/>
                 </div>
             </div>
        </div>
