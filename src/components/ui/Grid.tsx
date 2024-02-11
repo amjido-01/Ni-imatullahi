@@ -2,18 +2,18 @@ import React from 'react'
 
 export const Grid = () => {
   return (
-    <div className="border-2 mt-[131px] md:mt-[260px] h[400px]">
-        <div className='w-[90%] mx-auto border-2'>
+    <div className="border-2 mt-[131px] md:mt-[260px] h-[600px]">
+        <div className='w-[90%] h-full mx-auto border-2'>
         <h3 className=' text-[18px] leading-[120%] text-[#FFFFFF] font-black md:text-[36px]'>My Daily drivers</h3>
-            <div className='border-2 gr'>
+            <div className='border-2 gr h-fit'>
             <div className='item1'>one</div>
             <div className='item2'>two</div>
             <div className='item3'>three</div>
             <div className='item4'>four</div>
             <div className='item5'>five</div>
             <div className='item6 flex'>
-                <div></div>
-                <div></div>
+                <div className='w-1/2 border-2'></div>
+                <div className='w-1/2 border-2'></div>
             </div>
         </div>
         </div>

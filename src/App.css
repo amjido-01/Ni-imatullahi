@@ -292,9 +292,9 @@ body {
   #vid::-webkit-media-controls-volume-slider {
     display: none !important;
 }
-  #vid::-webkit-media-controls-play-button  {
+  /* #vid::-webkit-media-controls-play-button  {
     display: none;
-  }
+  } */
   /* footer {
     border-top-left-radius: 800%;
     border-top-right-radius: 800%;
