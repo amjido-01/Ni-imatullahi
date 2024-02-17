@@ -29,7 +29,7 @@ export const Testimonial:React.FunctionComponent<testimonialprops> = ({img, name
         </div>
         <p className='md:mt-[36px] mt-[14px] text-[14px] md:text-[29.14px] w-[162px] md:w-[368px] font-semibold md:font-bold leading-[120%]'>{quote}</p>
         </div>
-        <img className='w-[38.74px] h-[33.71px] absolute right-14 object-cover top-20 md:w-[76.09px] md:h-[66.21px]' src={comma} alt="" />
+        <img className='w-[38.74px] h-[33.71px] absolute right-8 md:right-14 object-cover top-8 md:top-20 md:w-[76.09px] md:h-[66.21px]' src={comma} alt="" />
       </div>
     </CardContent>
   </Card>
