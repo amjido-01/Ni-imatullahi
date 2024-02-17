@@ -7,8 +7,10 @@ import alaportfoliosm from '@/assets/alaportfoliosm.png';
 import bookbaylg from '@/assets/bookbaylg.png';
 import bookbaysm from '@/assets/bookbaysm.png';
 import pixellg from '@/assets/pixellg.png';
+import { Button } from './button';
 import pixelsm from '@/assets/pixelsm.png';
 import { Project } from './Project';
+import { Eye } from 'lucide-react';
 export const Gallery: React.FunctionComponent = () => {
     return (
         <div className="mt-[7.44rem] sm:mt-[4rem] md:mt-[22rem] lg:mt-[7.13rem] flex flex-col gap-[2.54rem] md:gap-[1.5rem]">
@@ -33,7 +35,13 @@ export const Gallery: React.FunctionComponent = () => {
             </div>
 
            </div>
-           <div className=''></div>
+           <div className='mt-[39px] md:mt-[50px] flex justify-end'>
+           <Button variant='link' className='text-[#EEEEEE] text-[10px] font-black md:text-[16px] flex gap-[0.5rem] md:gap-[0.75rem] items-center style leading-[120%]'>
+             view all works
+             <Eye />
+            </Button>
+                <h3 className=''></h3>
+           </div>
         </div>
     )
 }
