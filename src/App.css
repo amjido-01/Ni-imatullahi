@@ -244,7 +244,7 @@ body {
 
 
 .last {
-  background: linear-gradient(107.64deg, #11998E 0%, #38EF7D 100%);
+  background: linear-gradient(107.64deg, rgba(13, 74, 69, 0.5) 0%, rgba(30, 234, 218, 0.5) 100%);
 
 }
 

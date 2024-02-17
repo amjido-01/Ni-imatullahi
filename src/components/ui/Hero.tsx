@@ -5,7 +5,7 @@ import { HamburgerMenu } from './HamburgerMenu';
 import { Gallery } from './Gallery'
 export const Hero: React.FunctionComponent = () => {
   return (
-    <div className=' border-red-500'>
+    <div className=''>
       <HamburgerMenu />
 
       <div className='flex md:h-[90vh] flex-col justify-center items-centr'>
@@ -21,7 +21,7 @@ export const Hero: React.FunctionComponent = () => {
            </div>
 
             <div className="flex mt-[3rem] mx-auto md:mt-[2.5rem] call">
-              <Button variant='link' className='text-[#F4F4F4] text-[1rem] flex gap-[0.5rem] md:gap-[0.75rem] items-center md:text-[1.5rem] style font-bold leading-[120%] px-0'>
+              <Button variant='link' className='text-[#F4F4F4] text-[1rem] flex gap-[0.5rem] md:gap-[0.75rem] items-center md:text-[1.5rem] style font-black leading-[120%] px-0'>
                   Visit my works
               <VisitArrow animateX={[-5, 10, -5]} className='mt-[0.3rem] md:mt-[0.4rem] w-[2rem] md:w-[3.375rem] md:h-[1.5rem] stroke-[#F4F4F4]'/>
             </Button>
