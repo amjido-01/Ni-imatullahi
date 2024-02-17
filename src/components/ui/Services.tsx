@@ -16,6 +16,7 @@ import visualBrandLg from '@/assets/visualBrandLg.svg'
 const cardData = [
   {id: 0,
     icon: research,
+    
     desktopIcon: researchLg,
     title: 'User Research and Analysis',
     content: 'Conducting in-depth user research, analyzing data for actionable insights, and creating user personas and journey maps to enhance the user experience'
