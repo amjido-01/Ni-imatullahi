@@ -12,7 +12,7 @@ return (
 <div className='mt-[20rem]'>
 <footer className="bg-[#F4F4F4] mt-[4rem]">
     <div className="w-full py-4 mx-auto">
-        <div className=" text-[#010101] flex items-center justify-center mt-[7.06rem] md:mt-[12.9rem] w-[90%] sm:w-[70%] md:w-[88%] lg:w-[48.1875rem] mx-auto">
+        <div className=" text-[#010101] flex items-center justify-center mt-[7.06rem] w-[90%] sm:w-[70%] md:w-[88%] lg:w-[48.1875rem] mx-auto">
             <div className=''>
             <p className='text-[0.75rem] md:text-[1.5rem] style font-normal leading-[120%] uppercase'>Do you have any idea</p>
             <h1 className='leading-[120%] tracking[2px] uppercase font-black style w-full sm:w-[80%] md:w-[100%] heads md:text-[5.6rem] lg:text-[6rem]'>let’s build it together</h1>
