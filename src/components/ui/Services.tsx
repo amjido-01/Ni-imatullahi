@@ -1,39 +1,40 @@
 import React from 'react';
 import { ServicesCard } from './ServicesCard';
 import research from '@/assets/research.svg'
-import prototyping from '@/assets/prototyping.svg';
-import testing from '@/assets/testing.svg';
-import visualDesign from '@/assets/visualDesign.svg';
+import researchLg from '@/assets/researchLg.svg'
+import prototype from '@/assets/prototype.svg'
+import prototypeLg from '@/assets/prototypeLg.svg'
+;import test from '@/assets/test.svg';
+import testLg from '@/assets/testLg.svg'
+import visualBrand from '@/assets/visualBrand.svg';
 import proud from '@/assets/proud.svg'
 import proudsmlf from '@/assets/proudsmlf.svg'
 import proudrg from '@/assets/proudrg.svg'
 import proudrgsm from '@/assets/proudrgsm.svg';
-import researchlg from '@/assets/researchlg.svg'
-import visualDesignlg from '@/assets/visualDesignlg.svg'
-import testinglg from '@/assets/testinglg.svg';
-import prototypinglg from '@/assets/prototypinglg.svg'
+import visualBrandLg from '@/assets/visualBrandLg.svg'
+
 const cardData = [
   {id: 0,
     icon: research,
-    desktopIcon: researchlg,
+    desktopIcon: researchLg,
     title: 'User Research and Analysis',
     content: 'Conducting in-depth user research, analyzing data for actionable insights, and creating user personas and journey maps to enhance the user experience'
   },
   {id: 1,
-    icon: prototyping,
-    desktopIcon: prototypinglg,
+    icon: prototype,
+    desktopIcon: prototypeLg,
     title: 'Prototyping and Wireframing',
     content: 'Creating interactive prototypes and wireframes, refining through iterative testing for user feedback, and delivering a clear roadmap to clients and development teams for the final product.'
   },
   {id: 2,
-    icon: visualDesign,
-    desktopIcon: visualDesignlg,
+    icon: visualBrand,
+    desktopIcon: visualBrandLg,
     title: 'Visual Design and Branding',
     content: 'Crafting visually appealing designs aligned with brand identity, selecting color schemes, typography, and imagery to enhance the user experience, and ensuring consistency across platforms for a seamless experience.'
   },
   {id: 3,
-    icon: testing,
-    desktopIcon: testinglg,
+    icon: test,
+    desktopIcon: testLg,
     title: 'Usability Testing and Iterative Design',
     content: 'Conducting usability testing, iteratively refining designs based on user feedback, and collaborating with stakeholders and development teams to implement design improvements.'
   },
@@ -48,7 +49,7 @@ export const Services:React.FunctionComponent = () => {
 
        <div className='border2 flex items-center justify-center mt-[44px] mb-4 md:my-[55px] h-[400px]'>
         <div className='h-full'>
-        <img className='block mt-16 sm:hidden' src={proudsmlf} alt="text" />
+        <img className='block mr-4 mt-20 sm:hidden' src={proudsmlf} alt="text" />
         <img className='hidden sm:block mt-10' src={proud} alt="text" />
         </div>
 
@@ -81,8 +82,8 @@ export const Services:React.FunctionComponent = () => {
          </div>
 
          <div className='border2 h-full relative'>
-         <img className='block mt-[220px] sm:hidden' src={proudrgsm} alt="text" />
-         <img className='hidden mt-[125px] sm:block' src={proudrg} alt="text" />
+         <img className='block mt-[200px] sm:mt-[220px] ml-2 sm:hidden' src={proudrgsm} alt="text" />
+         <img className='hidden mt-[155px] sm:block' src={proudrg} alt="text" />
           </div>
         </div>
 

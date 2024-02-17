@@ -12,7 +12,7 @@ type Cardprops = {
 
 export const ServicesCard = ({ icon, title, content, containerSize, desktopIcon, borderClr }: Cardprops) => {
   return (
-    <div style={{boxShadow: '5px 5px 30px 0px rgba(0, 0, 0, 0.25)'}} className={`rounded-[2rem] ${containerSize} mx-aut sm:w-[30rem] md:w-[65%] lg:w-[40%] p-[1px]`}>
+    <div style={{boxShadow: '5px 5px 30px 0px rgba(0, 0, 0, 0.25)'}} className={`rounded-[2rem] ${containerSize} mx-aut sm:w-[30rem] md:w-[65%] lg:w-[42%] p-[1px]`}>
 
           <div style={{border: `1px solid ${borderClr}`}} className='card h-full w-full rounded-[2rem] p-[40px] md:p-[50px]'>
                 <img src={icon} className='block md:hidden' alt="icon" />

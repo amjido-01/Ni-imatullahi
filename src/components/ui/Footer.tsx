@@ -4,7 +4,6 @@ import { VisitArrow } from './VisitArrow';
 import x from '@/assets/x.svg';
 import facebook from '@/assets/facebook.svg';
 import linkedin from '@/assets/linkedin.svg';
-import dribble from '@/assets/dribble.svg';
 import whatsapp from '@/assets/whatsapp.svg';
 
 
@@ -29,7 +28,6 @@ return (
     </Button>
                 </div>
             <div className='flex min-w-0 gap-[0.5rem] sm:gap-[1rem] md:gap-[2rem]'>
-                <img src={dribble} alt="dribble icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />
                 <img src={x} alt="twitter x icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />
                 <img src={facebook} alt="facebook icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />
                 <img src={whatsapp} alt="whatsapp icon" className='w-[1.375rem] h-[1.375rem] md:w-[2rem] md:h-[2rem]' />
