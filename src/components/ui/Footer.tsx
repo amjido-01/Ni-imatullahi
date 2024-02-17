@@ -9,7 +9,7 @@ import whatsapp from '@/assets/whatsapp.svg';
 
 export const Footer: React.FunctionComponent = () => {
 return (
-<div className='mt-[20rem]'>
+<div className='mt-[20rem]   '>
 <footer className="bg-[#F4F4F4] mt-[4rem]">
     <div className="w-full py-4 mx-auto">
         <div className=" text-[#010101] flex items-center justify-center mt-[7.06rem] w-[90%] sm:w-[70%] md:w-[88%] lg:w-[48.1875rem] mx-auto">
