@@ -166,9 +166,9 @@ body {
   background-size: cover;
 }
 
-.child {
+/* .child {
   left: calc(-50vw + 50%);
-}
+} */
 
 #vid {
   object-fit: initial;
