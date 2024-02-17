@@ -11,7 +11,7 @@ import pixelsm from '@/assets/pixelsm.png';
 import { Project } from './Project';
 export const Gallery: React.FunctionComponent = () => {
     return (
-        <div className="mt-[7.44rem] md:mt-[7.13rem] flex flex-col gap-[2.54rem] md:gap-[1.5rem]">
+        <div className="mt-[7.44rem] sm:mt-[4rem] md:mt-[22rem] lg:mt-[7.13rem] flex flex-col gap-[2.54rem] md:gap-[1.5rem]">
 
            <div className="flex flex-col lg:flex-row justify-center items-center gap-[2.54rem] md:gap-[1.5rem]">
             
@@ -31,7 +31,9 @@ export const Gallery: React.FunctionComponent = () => {
              <div className='w-[94%] gala lg:w-[47.5%] rounded-[1.21875rem] md:rounded-[2.34669rem] overflow-hidden'>
                <Project deskstopImg={pixellg} mobileImage={pixelsm} liveIcon={live} projectName='Sarco pixel' role='Product Designer'/>
             </div>
+
            </div>
+           <div className=''></div>
         </div>
     )
 }
