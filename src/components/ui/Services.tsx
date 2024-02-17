@@ -1,7 +1,7 @@
 import React from 'react';
 import { ServicesCard } from './ServicesCard';
 import research from '@/assets/research.svg'
-import researchLg from '@/assets/researchLg.svg'
+import rLg from '@/assets/rLg.svg'
 import prototype from '@/assets/prototype.svg'
 import prototypeLg from '@/assets/prototypeLg.svg'
 ;import test from '@/assets/test.svg';
@@ -16,8 +16,8 @@ import visualBrandLg from '@/assets/visualBrandLg.svg'
 const cardData = [
   {id: 0,
     icon: research,
-    
-    desktopIcon: researchLg,
+
+    desktopIcon: rLg,
     title: 'User Research and Analysis',
     content: 'Conducting in-depth user research, analyzing data for actionable insights, and creating user personas and journey maps to enhance the user experience'
   },
